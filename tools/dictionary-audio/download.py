@@ -1,6 +1,7 @@
 """Checkpointed, single-worker Free Dictionary pronunciation review/download.
 Never bypass a rate limit. No website assets are replaced automatically.
 """
+import email.utils
 import datetime, hashlib, json, os, pathlib, subprocess, time, urllib.error, urllib.parse, urllib.request
 SOURCE=pathlib.Path(__file__).resolve().parent
 ROOT=SOURCE/'work'; ROOT.mkdir(exist_ok=True)
@@ -44,27 +45,48 @@ def checkpoint():
     state['counts']={s:sum(v['status']==s for v in state['words'].values()) for s in sorted({v['status'] for v in state['words'].values()})}
     save(STATE,state)
 
+def wait_until_ready():
+    while state.get('paused_until',0)>time.time():
+        if time.monotonic()>=DEADLINE:
+            state['stop_reason']='time_budget';checkpoint()
+            raise SystemExit(0)
+        remaining=state['paused_until']-time.time()
+        print('COOLDOWN',int(remaining),'seconds remaining',flush=True)
+        time.sleep(min(60,remaining,max(0,DEADLINE-time.monotonic())))
+    state.pop('paused_until',None);state.pop('pause_reason',None)
+
 def request(url):
     global last_request
-    wait=5-(time.monotonic()-last_request)
-    if wait>0:time.sleep(wait)
-    if time.monotonic()>DEADLINE:
-        state['stop_reason']='time_budget';checkpoint();raise SystemExit('Time budget reached; resume from saved checkpoint')
-    last_request=time.monotonic()
-    req=urllib.request.Request(url,headers={'User-Agent':'WordGarden/1.0 (educational pronunciation verification; single worker)'})
-    try:
-        with urllib.request.urlopen(req,timeout=35) as response:return response.read()
-    except urllib.error.HTTPError as error:
-        if error.code in (429,503):
-            raw=error.headers.get('Retry-After','')
-            try:delay=max(900,int(raw))
-            except ValueError:delay=900
-            state['paused_until']=time.time()+delay
-            state['pause_reason']='HTTP '+str(error.code)
-            checkpoint()
-            print('PAUSED',error.code,'seconds',delay,flush=True)
-            raise SystemExit('Rate limited; stopped without retry. Checkpoint retained; resume only after cooldown.')
-        raise
+    while True:
+        wait_until_ready()
+        interval=float(os.environ.get('AUDIO_REQUEST_INTERVAL','15'))
+        wait=interval-(time.monotonic()-last_request)
+        if wait>0:time.sleep(wait)
+        if time.monotonic()>DEADLINE:
+            state['stop_reason']='time_budget';checkpoint();raise SystemExit(0)
+        last_request=time.monotonic()
+        req=urllib.request.Request(url,headers={'User-Agent':'WordGarden/1.0 (educational pronunciation verification; single worker)'})
+        try:
+            with urllib.request.urlopen(req,timeout=35) as response:
+                blob=response.read()
+            state['consecutive_limits']=0
+            return blob
+        except urllib.error.HTTPError as error:
+            if error.code in (429,503):
+                raw=error.headers.get('Retry-After','')
+                try:server_delay=max(0,int(raw))
+                except ValueError:
+                    try:server_delay=max(0,email.utils.parsedate_to_datetime(raw).timestamp()-time.time())
+                    except (ValueError,TypeError,OverflowError):server_delay=0
+                attempts=state.get('consecutive_limits',0)+1
+                state['consecutive_limits']=attempts
+                delay=max(server_delay,min(3600,900*2**min(attempts-1,2)))
+                state['paused_until']=time.time()+delay
+                state['pause_reason']='HTTP '+str(error.code)
+                checkpoint()
+                print('PAUSED',error.code,'seconds',int(delay),'then resume automatically',flush=True)
+                continue
+            raise
 
 def key(word):return urllib.parse.quote(word,safe='')
 def identity(url):return urllib.parse.parse_qs(urllib.parse.urlparse(url or '').query).get('curid',[None])[0]
@@ -119,9 +141,9 @@ def process(word,current):
     if not 0.05<duration<20:raise ValueError('Unexpected audio duration: '+str(duration))
     return dict(result,status='downloaded',file=filename,sha256=hashlib.sha256(target.read_bytes()).hexdigest(),duration=duration,commons=info)
 
-print('START single worker, minimum request interval 5 seconds',flush=True)
-if state.get('paused_until',0)>time.time():raise SystemExit('Server cooldown remains active; not making requests')
-state.pop('paused_until',None);state.pop('pause_reason',None);state.pop('finished',None);checkpoint()
+print('START single worker, minimum request interval 15 seconds',flush=True)
+wait_until_ready()
+state.pop('finished',None);state.pop('stop_reason',None);checkpoint()
 # Reuse verified API cache first; deferred placeholders must be fetched again.
 def cached(item):
     p=CACHE/(key(item[0])+'.json')
@@ -135,6 +157,8 @@ for word,current in items:
     try:result=process(word,current)
     except Exception as error:result={'status':'error','error':str(error)}
     state['words'][word]=result;state['current_word']=word;checkpoint()
-    print(len(state['words']),word,result['status'],state['counts'],flush=True)
-state['finished']=datetime.datetime.now(datetime.timezone.utc).isoformat();checkpoint()
+    print(len(state['words']),word,result['status'],state['counts'],result.get('error',''),flush=True)
+state['finished']=datetime.datetime.now(datetime.timezone.utc).isoformat()
+state['needs_review']=[w for w,v in state['words'].items() if v['status'] in ('error','source_needs_review','unsupported_media')]
+checkpoint()
 print('FINISHED',state['counts'],flush=True)

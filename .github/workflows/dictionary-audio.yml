@@ -13,6 +13,12 @@ concurrency:
   cancel-in-progress: false
 jobs:
   download:
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        batch: [1, 2, 3, 4, 5, 6]
+    name: download batch ${{ matrix.batch }}
     runs-on: ubuntu-latest
     timeout-minutes: 110
     steps:
@@ -20,27 +26,35 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Install audio verification tool
+        run: |
+          if ! command -v ffprobe >/dev/null; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq ffmpeg
+          fi
+          ffprobe -version | head -n 1
       - name: Restore previous checkpoint
         uses: actions/cache/restore@v4
         with:
           path: tools/dictionary-audio/work
-          key: dictionary-audio-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          key: dictionary-audio-v1-${{ github.run_id }}-${{ github.run_attempt }}-${{ matrix.batch }}
           restore-keys: dictionary-audio-v1-
-      - name: Download slowly (one request per 5 seconds or slower)
+      - name: Download slowly (one request per 15 seconds or slower)
         run: python -u tools/dictionary-audio/download.py
         env:
           AUDIO_MAX_SECONDS: '5400'
+          AUDIO_REQUEST_INTERVAL: '15'
       - name: Save checkpoint
         if: always()
         uses: actions/cache/save@v4
         with:
           path: tools/dictionary-audio/work
-          key: dictionary-audio-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          key: dictionary-audio-v1-${{ github.run_id }}-${{ github.run_attempt }}-${{ matrix.batch }}
       - name: Upload recordings and progress
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: dictionary-audio-progress
+          name: dictionary-audio-progress-batch-${{ matrix.batch }}
           path: tools/dictionary-audio/work
           retention-days: 90
       - name: Show progress summary
