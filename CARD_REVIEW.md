@@ -16,3 +16,7 @@ case-sensitive homographs and preservation of custom content after building the 
 
 This review concerns learning meanings and visual prompts. It does not certify that
 all pronunciation recordings match Free Dictionary API; that separate audit remains incomplete.
+
+## Unified scene update
+
+All 692 former multi-emoji combinations now use an explicitly mapped complete vector scene or an accurate single-subject symbol. Scene drawings share a 280 × 180 canvas and a consistent palette. Existing spatial and numeric diagrams remain. No Chinese captions are rendered inside the image. See `source/scene-plan.json` and `source/scene-art.js`.

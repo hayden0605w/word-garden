@@ -25,6 +25,7 @@ jobs:
       - run: python deploy.py
       - run: node test-card-review.mjs
       - run: node test-phonics.mjs
+      - run: node test-scenes.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

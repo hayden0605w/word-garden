@@ -40,6 +40,7 @@
 <script src="vendor/qrcode.js"></script><script src="vendor/jsQR.js"></script><script>
 const seed=[['bird','鳥','🐦'],['river','河流','🏞️'],['bush','灌木叢','🌿'],['ocean','海洋','🌊'],['star','星星','⭐'],['grass','草','🌱'],['flower','花','🌸'],['butterfly','蝴蝶','🦋'],['mountain','山','⛰️'],['rock','石頭','🪨'],['sun','太陽','☀️'],['tree','樹','🌳'],['moon','月亮','🌙'],['cloud','雲','☁️'],['sky','天空','🌤️']];
 let db;try{db=JSON.parse(localStorage.getItem('wordgarden-v1'))}catch{}if(!db||!Array.isArray(db.cards))db={cards:seed.map((x,i)=>({id:(Date.now().toString(36)+Math.random().toString(36).slice(2)),word:x[0],zh:x[1],emoji:x[2],due:0,interval:0,reps:0})),history:{}};db.history ||= {};let page='home',queue=[],current=null,checked=false,revealed=false,done=0,total=0,editId=null;const app=document.getElementById('app');const day=()=>new Date().toLocaleDateString('en-CA');const esc=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));function save(){return persistLearning()}function due(){return db.cards.filter(c=>c.due<=Date.now())}/* PHONICS_CLIENT */
+/* SCENE_ART */
 /* CARD_VISUALS */
 const spatialScenes={
  above:'<path d="M82 82h116" stroke="#a6b69b" stroke-dasharray="5 5"/><circle cx="140" cy="46" r="20" fill="#ed876b"/><rect x="102" y="108" width="76" height="48" rx="7" fill="#d5b589"/>',

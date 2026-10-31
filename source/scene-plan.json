@@ -1,0 +1,2365 @@
+{
+  "busy": {
+    "scene": "busy"
+  },
+  "hard-working": {
+    "scene": "busy"
+  },
+  "work": {
+    "scene": "work"
+  },
+  "office": {
+    "scene": "work"
+  },
+  "clerk": {
+    "scene": "work"
+  },
+  "secretary": {
+    "scene": "work"
+  },
+  "job": {
+    "scene": "work"
+  },
+  "business": {
+    "scene": "shopping"
+  },
+  "read": {
+    "scene": "read"
+  },
+  "study": {
+    "scene": "read"
+  },
+  "learn": {
+    "scene": "read"
+  },
+  "still": {
+    "scene": "read"
+  },
+  "homework": {
+    "scene": "read"
+  },
+  "workbook": {
+    "scene": "read"
+  },
+  "knowledge": {
+    "scene": "read"
+  },
+  "interest": {
+    "scene": "read"
+  },
+  "interested": {
+    "scene": "read"
+  },
+  "interesting": {
+    "scene": "read"
+  },
+  "enjoy": {
+    "scene": "read"
+  },
+  "like": {
+    "scene": "read"
+  },
+  "favorite": {
+    "scene": "read"
+  },
+  "write": {
+    "scene": "write"
+  },
+  "writer": {
+    "scene": "write"
+  },
+  "do": {
+    "scene": "write"
+  },
+  "practice": {
+    "scene": "piano"
+  },
+  "copy": {
+    "scene": "copy"
+  },
+  "spell": {
+    "scene": "write"
+  },
+  "letter": {
+    "scene": "write"
+  },
+  "mark": {
+    "scene": "document"
+  },
+  "list": {
+    "scene": "write"
+  },
+  "note": {
+    "scene": "write"
+  },
+  "report": {
+    "scene": "write"
+  },
+  "but": {
+    "scene": "rainHappy"
+  },
+  "however": {
+    "scene": "rainHappy"
+  },
+  "though": {
+    "scene": "rainHappy"
+  },
+  "fine": {
+    "scene": "rainHappy"
+  },
+  "because": {
+    "scene": "shelter"
+  },
+  "reason": {
+    "scene": "shelter"
+  },
+  "so": {
+    "scene": "shelter"
+  },
+  "if": {
+    "scene": "shelter"
+  },
+  "actually": {
+    "scene": "unbox"
+  },
+  "real": {
+    "scene": "unbox"
+  },
+  "really": {
+    "scene": "unbox"
+  },
+  "surprise": {
+    "scene": "face",
+    "option": "surprise"
+  },
+  "surprised": {
+    "scene": "face",
+    "option": "surprise"
+  },
+  "appear": {
+    "scene": "unbox"
+  },
+  "may": {
+    "scene": "weatherMaybe"
+  },
+  "maybe": {
+    "scene": "weatherMaybe"
+  },
+  "perhaps": {
+    "scene": "weatherMaybe"
+  },
+  "probably": {
+    "scene": "weatherMaybe"
+  },
+  "whether": {
+    "scene": "weatherMaybe"
+  },
+  "happy": {
+    "scene": "sunHappy"
+  },
+  "glad": {
+    "scene": "sunHappy"
+  },
+  "joy": {
+    "scene": "sunHappy"
+  },
+  "great": {
+    "scene": "sunHappy"
+  },
+  "wonderful": {
+    "scene": "sunHappy"
+  },
+  "well": {
+    "scene": "sunHappy"
+  },
+  "nice": {
+    "scene": "sunHappy"
+  },
+  "fun": {
+    "scene": "sunHappy"
+  },
+  "excellent": {
+    "scene": "sunHappy"
+  },
+  "father": {
+    "scene": "family",
+    "option": "father"
+  },
+  "husband": {
+    "scene": "family",
+    "option": "father"
+  },
+  "uncle": {
+    "scene": "family",
+    "option": "father"
+  },
+  "mother": {
+    "scene": "family",
+    "option": "mother"
+  },
+  "wife": {
+    "scene": "family",
+    "option": "mother"
+  },
+  "aunt": {
+    "scene": "family",
+    "option": "mother"
+  },
+  "housewife": {
+    "scene": "family",
+    "option": "mother"
+  },
+  "Mrs.": {
+    "scene": "family",
+    "option": "mother"
+  },
+  "brother": {
+    "scene": "family",
+    "option": "brother"
+  },
+  "son": {
+    "scene": "family",
+    "option": "brother"
+  },
+  "sister": {
+    "scene": "family",
+    "option": "sister"
+  },
+  "daughter": {
+    "scene": "family",
+    "option": "sister"
+  },
+  "cousin": {
+    "scene": "family",
+    "option": "cousin"
+  },
+  "relative": {
+    "scene": "family",
+    "option": "relative"
+  },
+  "parent": {
+    "scene": "family",
+    "option": "relative"
+  },
+  "about": {
+    "scene": "conversation",
+    "option": "book"
+  },
+  "topic": {
+    "scene": "conversation",
+    "option": "book"
+  },
+  "matter": {
+    "scene": "conversation",
+    "option": "book"
+  },
+  "language": {
+    "scene": "conversation"
+  },
+  "English": {
+    "scene": "conversation",
+    "option": "book"
+  },
+  "Chinese": {
+    "scene": "conversation",
+    "option": "book"
+  },
+  "mean": {
+    "scene": "conversation",
+    "option": "book"
+  },
+  "define": {
+    "scene": "conversation",
+    "option": "book"
+  },
+  "talk": {
+    "scene": "conversation"
+  },
+  "say": {
+    "scene": "conversation"
+  },
+  "speak": {
+    "scene": "conversation"
+  },
+  "tell": {
+    "scene": "conversation"
+  },
+  "meeting": {
+    "scene": "conversation"
+  },
+  "interview": {
+    "scene": "conversation"
+  },
+  "sound": {
+    "scene": "conversation"
+  },
+  "voice": {
+    "scene": "music"
+  },
+  "ask": {
+    "scene": "conversation",
+    "option": "ask"
+  },
+  "answer": {
+    "scene": "conversation",
+    "option": "ask"
+  },
+  "question": {
+    "scene": "conversation",
+    "option": "ask"
+  },
+  "what": {
+    "scene": "question"
+  },
+  "how": {
+    "scene": "question"
+  },
+  "who": {
+    "scene": "conversation",
+    "option": "ask"
+  },
+  "whose": {
+    "scene": "conversation",
+    "option": "ask"
+  },
+  "why": {
+    "scene": "question"
+  },
+  "class": {
+    "scene": "classroom"
+  },
+  "classroom": {
+    "scene": "classroom"
+  },
+  "course": {
+    "scene": "classroom"
+  },
+  "lesson": {
+    "scene": "classroom"
+  },
+  "teach": {
+    "scene": "classroom"
+  },
+  "teacher": {
+    "scene": "classroom"
+  },
+  "explain": {
+    "scene": "classroom"
+  },
+  "understand": {
+    "scene": "classroom"
+  },
+  "act": {
+    "scene": "stage",
+    "option": "man"
+  },
+  "actor": {
+    "scene": "stage",
+    "option": "man"
+  },
+  "actress": {
+    "scene": "stage",
+    "option": "woman"
+  },
+  "show": {
+    "scene": "stage"
+  },
+  "famous": {
+    "scene": "stage"
+  },
+  "popular": {
+    "scene": "stage"
+  },
+  "sing": {
+    "scene": "music"
+  },
+  "singer": {
+    "scene": "music"
+  },
+  "song": {
+    "scene": "music"
+  },
+  "shout": {
+    "scene": "music"
+  },
+  "hobby": {
+    "scene": "piano"
+  },
+  "breakfast": {
+    "scene": "breakfast"
+  },
+  "morning": {
+    "scene": "breakfast"
+  },
+  "meal": {
+    "scene": "breakfast"
+  },
+  "afternoon": {
+    "scene": "clockPerson",
+    "option": "3"
+  },
+  "early": {
+    "scene": "clockPerson",
+    "option": "9"
+  },
+  "a.m.": {
+    "scene": "clockPerson",
+    "option": "9"
+  },
+  "evening": {
+    "scene": "clockPerson",
+    "option": "5"
+  },
+  "p.m.": {
+    "scene": "clockPerson",
+    "option": "5"
+  },
+  "before": {
+    "scene": "timeOrder",
+    "option": "before"
+  },
+  "after": {
+    "scene": "timeOrder",
+    "option": "after"
+  },
+  "then": {
+    "scene": "timeOrder",
+    "option": "after"
+  },
+  "eat": {
+    "scene": "eat"
+  },
+  "taste": {
+    "scene": "eat"
+  },
+  "delicious": {
+    "scene": "eat"
+  },
+  "yummy": {
+    "scene": "eat"
+  },
+  "dining room": {
+    "scene": "eat"
+  },
+  "lunch": {
+    "scene": "eat"
+  },
+  "dinner": {
+    "scene": "eat"
+  },
+  "restaurant": {
+    "scene": "eat"
+  },
+  "waiter": {
+    "scene": "eat"
+  },
+  "waitress": {
+    "scene": "eat"
+  },
+  "service": {
+    "scene": "eat"
+  },
+  "drink": {
+    "scene": "drink"
+  },
+  "thirsty": {
+    "scene": "drink"
+  },
+  "sleep": {
+    "scene": "sleep"
+  },
+  "bedroom": {
+    "scene": "sleep"
+  },
+  "dream": {
+    "scene": "sleep"
+  },
+  "rest": {
+    "scene": "sleep"
+  },
+  "night": {
+    "scene": "sleep"
+  },
+  "tonight": {
+    "scene": "sleep"
+  },
+  "tired": {
+    "scene": "tired"
+  },
+  "lazy": {
+    "scene": "tired"
+  },
+  "boring": {
+    "scene": "tired"
+  },
+  "action": {
+    "scene": "running"
+  },
+  "exercise": {
+    "scene": "running"
+  },
+  "run": {
+    "scene": "running"
+  },
+  "fast": {
+    "scene": "running"
+  },
+  "quick": {
+    "scene": "running"
+  },
+  "hurry": {
+    "scene": "running"
+  },
+  "race": {
+    "scene": "running"
+  },
+  "walk": {
+    "scene": "walk"
+  },
+  "go": {
+    "scene": "walk"
+  },
+  "move": {
+    "scene": "walk"
+  },
+  "visit": {
+    "scene": "walk"
+  },
+  "trip": {
+    "scene": "travel"
+  },
+  "away": {
+    "scene": "leave"
+  },
+  "leave": {
+    "scene": "leave"
+  },
+  "follow": {
+    "scene": "walk"
+  },
+  "lead": {
+    "scene": "walk"
+  },
+  "leader": {
+    "scene": "walk"
+  },
+  "pass": {
+    "scene": "walk"
+  },
+  "arrive": {
+    "scene": "walk"
+  },
+  "jump": {
+    "scene": "jump"
+  },
+  "raise": {
+    "scene": "jump"
+  },
+  "kick": {
+    "scene": "kick"
+  },
+  "PE": {
+    "scene": "kick"
+  },
+  "player": {
+    "scene": "kick"
+  },
+  "play": {
+    "scene": "kick"
+  },
+  "throw": {
+    "scene": "throw"
+  },
+  "catch": {
+    "scene": "catch"
+  },
+  "hold": {
+    "scene": "catch"
+  },
+  "carry": {
+    "scene": "carry"
+  },
+  "bring": {
+    "scene": "carry"
+  },
+  "take": {
+    "scene": "carry"
+  },
+  "keep": {
+    "scene": "carry"
+  },
+  "push": {
+    "scene": "push"
+  },
+  "pull": {
+    "scene": "pull"
+  },
+  "put": {
+    "scene": "put"
+  },
+  "pack": {
+    "scene": "put"
+  },
+  "prepare": {
+    "scene": "put"
+  },
+  "set": {
+    "scene": "put"
+  },
+  "help": {
+    "scene": "help"
+  },
+  "helpful": {
+    "scene": "help"
+  },
+  "treat": {
+    "scene": "help"
+  },
+  "care": {
+    "scene": "care"
+  },
+  "kind": {
+    "scene": "help"
+  },
+  "friendly": {
+    "scene": "help"
+  },
+  "friend": {
+    "scene": "help"
+  },
+  "with": {
+    "scene": "help"
+  },
+  "together": {
+    "scene": "help"
+  },
+  "need": {
+    "scene": "care"
+  },
+  "feed": {
+    "scene": "care"
+  },
+  "careful": {
+    "scene": "careful"
+  },
+  "wash": {
+    "scene": "wash"
+  },
+  "clean": {
+    "scene": "clean"
+  },
+  "tidy": {
+    "scene": "clean"
+  },
+  "mop": {
+    "scene": "clean"
+  },
+  "wet": {
+    "scene": "wet"
+  },
+  "dirty": {
+    "scene": "dirty"
+  },
+  "ugly": {
+    "scene": "dirty"
+  },
+  "dry": {
+    "scene": "dry"
+  },
+  "grow": {
+    "scene": "grow"
+  },
+  "become": {
+    "scene": "grow"
+  },
+  "change": {
+    "scene": "grow"
+  },
+  "life": {
+    "scene": "grow"
+  },
+  "garden": {
+    "scene": "garden"
+  },
+  "beautiful": {
+    "scene": "garden"
+  },
+  "pretty": {
+    "scene": "garden"
+  },
+  "farm": {
+    "scene": "farm"
+  },
+  "house": {
+    "scene": "house"
+  },
+  "home": {
+    "scene": "house"
+  },
+  "stay": {
+    "scene": "house"
+  },
+  "live": {
+    "scene": "house"
+  },
+  "neighbor": {
+    "scene": "neighborhood"
+  },
+  "convenient": {
+    "scene": "neighborhood"
+  },
+  "apartment": {
+    "scene": "apartment"
+  },
+  "balcony": {
+    "scene": "apartment"
+  },
+  "room": {
+    "scene": "room"
+  },
+  "living room": {
+    "scene": "room"
+  },
+  "enter": {
+    "scene": "door",
+    "option": "open"
+  },
+  "come": {
+    "scene": "door",
+    "option": "open"
+  },
+  "open": {
+    "scene": "door",
+    "option": "open"
+  },
+  "out": {
+    "scene": "leave"
+  },
+  "desk": {
+    "scene": "desk"
+  },
+  "table": {
+    "scene": "desk"
+  },
+  "buy": {
+    "scene": "shopping"
+  },
+  "pay": {
+    "scene": "shopping"
+  },
+  "cost": {
+    "scene": "shopping"
+  },
+  "price": {
+    "scene": "shopping"
+  },
+  "sell": {
+    "scene": "shopping"
+  },
+  "sale": {
+    "scene": "shopping"
+  },
+  "salesman": {
+    "scene": "shopping"
+  },
+  "market": {
+    "scene": "store"
+  },
+  "supermarket": {
+    "scene": "store"
+  },
+  "bookstore": {
+    "scene": "store"
+  },
+  "shopkeeper": {
+    "scene": "store"
+  },
+  "department store": {
+    "scene": "store"
+  },
+  "cook": {
+    "scene": "cooking"
+  },
+  "boil": {
+    "scene": "cooking"
+  },
+  "fry": {
+    "scene": "cooking"
+  },
+  "kitchen": {
+    "scene": "cooking"
+  },
+  "bake": {
+    "scene": "bake"
+  },
+  "bakery": {
+    "scene": "bake"
+  },
+  "toast": {
+    "scene": "bake"
+  },
+  "sports": {
+    "scene": "sport"
+  },
+  "gym": {
+    "scene": "sport"
+  },
+  "team": {
+    "scene": "team"
+  },
+  "club": {
+    "scene": "team"
+  },
+  "member": {
+    "scene": "team"
+  },
+  "join": {
+    "scene": "team"
+  },
+  "people": {
+    "scene": "people"
+  },
+  "everyone": {
+    "scene": "people"
+  },
+  "they": {
+    "scene": "pronoun",
+    "option": "group"
+  },
+  "we": {
+    "scene": "people"
+  },
+  "you": {
+    "scene": "pronoun",
+    "option": "male"
+  },
+  "person": {
+    "scene": "people"
+  },
+  "anyone": {
+    "scene": "people"
+  },
+  "teenager": {
+    "scene": "people"
+  },
+  "foreigner": {
+    "scene": "travel"
+  },
+  "American": {
+    "scene": "people"
+  },
+  "group": {
+    "scene": "group"
+  },
+  "public": {
+    "scene": "group"
+  },
+  "lonely": {
+    "scene": "alone"
+  },
+  "point": {
+    "scene": "point"
+  },
+  "this": {
+    "scene": "demonstrative",
+    "option": "near"
+  },
+  "that": {
+    "scene": "demonstrative",
+    "option": "far"
+  },
+  "these": {
+    "scene": "demonstrative",
+    "option": "near-many"
+  },
+  "those": {
+    "scene": "demonstrative",
+    "option": "far-many"
+  },
+  "it": {
+    "scene": "point"
+  },
+  "he": {
+    "scene": "pronoun",
+    "option": "male"
+  },
+  "she": {
+    "scene": "pronoun",
+    "option": "female"
+  },
+  "here": {
+    "scene": "location",
+    "option": "here"
+  },
+  "there": {
+    "scene": "location",
+    "option": "there"
+  },
+  "choose": {
+    "scene": "choice"
+  },
+  "choice": {
+    "scene": "choice"
+  },
+  "decide": {
+    "scene": "choose"
+  },
+  "pick": {
+    "scene": "choose"
+  },
+  "other": {
+    "scene": "choose"
+  },
+  "another": {
+    "scene": "choose"
+  },
+  "any": {
+    "scene": "choose"
+  },
+  "either": {
+    "scene": "choose"
+  },
+  "only": {
+    "scene": "choose"
+  },
+  "or": {
+    "scene": "choice"
+  },
+  "which": {
+    "scene": "choice"
+  },
+  "few": {
+    "scene": "quantity",
+    "option": "2"
+  },
+  "both": {
+    "scene": "quantity",
+    "option": "2"
+  },
+  "pair": {
+    "scene": "quantity",
+    "option": "2"
+  },
+  "a few": {
+    "scene": "quantity",
+    "option": "3"
+  },
+  "some": {
+    "scene": "quantity",
+    "option": "3"
+  },
+  "several": {
+    "scene": "quantity",
+    "option": "3"
+  },
+  "a lot": {
+    "scene": "quantity",
+    "option": "9"
+  },
+  "many": {
+    "scene": "quantity",
+    "option": "9"
+  },
+  "most": {
+    "scene": "quantity",
+    "option": "9"
+  },
+  "all": {
+    "scene": "fruit"
+  },
+  "every": {
+    "scene": "calendar",
+    "option": "always"
+  },
+  "everything": {
+    "scene": "fruit"
+  },
+  "food": {
+    "scene": "breakfast"
+  },
+  "fruit": {
+    "scene": "fruit"
+  },
+  "vegetable": {
+    "scene": "farm"
+  },
+  "animal": {
+    "scene": "animal"
+  },
+  "example": {
+    "scene": "fruit"
+  },
+  "and": {
+    "scene": "fruit"
+  },
+  "anything": {
+    "scene": "fruit"
+  },
+  "something": {
+    "scene": "fruit"
+  },
+  "thing": {
+    "scene": "fruit"
+  },
+  "same": {
+    "scene": "comparison",
+    "option": "same"
+  },
+  "different": {
+    "scene": "comparison",
+    "option": "different"
+  },
+  "big": {
+    "scene": "comparison",
+    "option": "big"
+  },
+  "large": {
+    "scene": "comparison",
+    "option": "big"
+  },
+  "small": {
+    "scene": "comparison",
+    "option": "big"
+  },
+  "little": {
+    "scene": "comparison",
+    "option": "big"
+  },
+  "giant": {
+    "scene": "comparison",
+    "option": "big"
+  },
+  "than": {
+    "scene": "comparison",
+    "option": "big"
+  },
+  "as": {
+    "scene": "comparison",
+    "option": "equal"
+  },
+  "more": {
+    "scene": "increase"
+  },
+  "also": {
+    "scene": "increase"
+  },
+  "too": {
+    "scene": "increase"
+  },
+  "less": {
+    "scene": "decrease"
+  },
+  "nothing": {
+    "scene": "empty"
+  },
+  "nobody": {
+    "scene": "emptyRoom"
+  },
+  "gift": {
+    "scene": "gift"
+  },
+  "present": {
+    "scene": "gift"
+  },
+  "prize": {
+    "scene": "gift"
+  },
+  "special": {
+    "scene": "gift"
+  },
+  "for": {
+    "scene": "give"
+  },
+  "want": {
+    "scene": "gift"
+  },
+  "wish": {
+    "scene": "gift"
+  },
+  "hope": {
+    "scene": "gift"
+  },
+  "birthday": {
+    "scene": "birthday"
+  },
+  "age": {
+    "scene": "birthday"
+  },
+  "think": {
+    "scene": "thinking"
+  },
+  "know": {
+    "scene": "thinking"
+  },
+  "mind": {
+    "scene": "thinking"
+  },
+  "feel": {
+    "scene": "thinking"
+  },
+  "believe": {
+    "scene": "thinking"
+  },
+  "expect": {
+    "scene": "calendar",
+    "option": "now"
+  },
+  "forget": {
+    "scene": "thinking"
+  },
+  "remember": {
+    "scene": "thinking"
+  },
+  "worry": {
+    "scene": "thinking"
+  },
+  "problem": {
+    "scene": "puzzle",
+    "option": "hard"
+  },
+  "trouble": {
+    "scene": "puzzle",
+    "option": "hard"
+  },
+  "stupid": {
+    "scene": "thinking"
+  },
+  "guess": {
+    "scene": "thinking"
+  },
+  "idea": {
+    "scene": "thinking"
+  },
+  "wise": {
+    "scene": "thinking"
+  },
+  "smart": {
+    "scene": "thinking"
+  },
+  "excited": {
+    "scene": "face",
+    "option": "surprise"
+  },
+  "exciting": {
+    "scene": "face",
+    "option": "surprise"
+  },
+  "funny": {
+    "scene": "happy"
+  },
+  "joke": {
+    "scene": "happy"
+  },
+  "lovely": {
+    "scene": "happy"
+  },
+  "pleasure": {
+    "scene": "happy"
+  },
+  "sad": {
+    "scene": "sad"
+  },
+  "sore": {
+    "scene": "sad"
+  },
+  "hurt": {
+    "scene": "sad"
+  },
+  "miss": {
+    "scene": "sad"
+  },
+  "always": {
+    "scene": "calendar",
+    "option": "always"
+  },
+  "habit": {
+    "scene": "calendar",
+    "option": "always"
+  },
+  "often": {
+    "scene": "calendar",
+    "option": "often"
+  },
+  "usually": {
+    "scene": "calendar",
+    "option": "often"
+  },
+  "sometimes": {
+    "scene": "calendar",
+    "option": "sometimes"
+  },
+  "seldom": {
+    "scene": "calendar",
+    "option": "seldom"
+  },
+  "never": {
+    "scene": "calendar",
+    "option": "never"
+  },
+  "past": {
+    "scene": "calendar",
+    "option": "past"
+  },
+  "ago": {
+    "scene": "calendar",
+    "option": "past"
+  },
+  "history": {
+    "scene": "calendar",
+    "option": "past"
+  },
+  "ever": {
+    "scene": "calendar",
+    "option": "past"
+  },
+  "yesterday": {
+    "scene": "calendar",
+    "option": "past"
+  },
+  "future": {
+    "scene": "calendar",
+    "option": "future"
+  },
+  "later": {
+    "scene": "calendar",
+    "option": "future"
+  },
+  "tomorrow": {
+    "scene": "calendar",
+    "option": "future"
+  },
+  "will": {
+    "scene": "calendar",
+    "option": "future"
+  },
+  "yet": {
+    "scene": "calendar",
+    "option": "future"
+  },
+  "until": {
+    "scene": "calendar",
+    "option": "future"
+  },
+  "since": {
+    "scene": "calendar",
+    "option": "future"
+  },
+  "now": {
+    "scene": "calendar",
+    "option": "now"
+  },
+  "today": {
+    "scene": "calendar",
+    "option": "now"
+  },
+  "holiday": {
+    "scene": "calendar",
+    "option": "now"
+  },
+  "weekend": {
+    "scene": "calendar",
+    "option": "now"
+  },
+  "festival": {
+    "scene": "calendar",
+    "option": "now"
+  },
+  "hour": {
+    "scene": "clock",
+    "option": "1"
+  },
+  "just": {
+    "scene": "clock",
+    "option": "1"
+  },
+  "moment": {
+    "scene": "clock",
+    "option": "1"
+  },
+  "soon": {
+    "scene": "clock",
+    "option": "1"
+  },
+  "during": {
+    "scene": "clock",
+    "option": "1"
+  },
+  "agree": {
+    "scene": "check"
+  },
+  "yes": {
+    "scene": "check"
+  },
+  "OK": {
+    "scene": "check"
+  },
+  "sure": {
+    "scene": "check"
+  },
+  "true": {
+    "scene": "check"
+  },
+  "correct": {
+    "scene": "check"
+  },
+  "allow": {
+    "scene": "check"
+  },
+  "can": {
+    "scene": "choicePath"
+  },
+  "able": {
+    "scene": "check"
+  },
+  "successful": {
+    "scene": "check"
+  },
+  "no": {
+    "scene": "check",
+    "option": "no"
+  },
+  "not": {
+    "scene": "check",
+    "option": "no"
+  },
+  "wrong": {
+    "scene": "check",
+    "option": "no"
+  },
+  "possible": {
+    "scene": "choicePath"
+  },
+  "could": {
+    "scene": "choicePath"
+  },
+  "let": {
+    "scene": "choicePath"
+  },
+  "chance": {
+    "scene": "choicePath"
+  },
+  "grade": {
+    "scene": "document"
+  },
+  "quiz": {
+    "scene": "document"
+  },
+  "test": {
+    "scene": "document"
+  },
+  "check": {
+    "scene": "document"
+  },
+  "finish": {
+    "scene": "document"
+  },
+  "finally": {
+    "scene": "document"
+  },
+  "already": {
+    "scene": "document"
+  },
+  "ready": {
+    "scene": "document"
+  },
+  "order": {
+    "scene": "document"
+  },
+  "rule": {
+    "scene": "rule"
+  },
+  "download": {
+    "scene": "computer",
+    "option": "down"
+  },
+  "upload": {
+    "scene": "computer",
+    "option": "up"
+  },
+  "Internet": {
+    "scene": "computer"
+  },
+  "modern": {
+    "scene": "computer"
+  },
+  "program": {
+    "scene": "computer"
+  },
+  "screen": {
+    "scene": "computer"
+  },
+  "build": {
+    "scene": "build"
+  },
+  "make": {
+    "scene": "build"
+  },
+  "engineer": {
+    "scene": "build"
+  },
+  "fix": {
+    "scene": "fix"
+  },
+  "useful": {
+    "scene": "fix"
+  },
+  "tool": {
+    "scene": "fix"
+  },
+  "use": {
+    "scene": "fix"
+  },
+  "country": {
+    "scene": "globe"
+  },
+  "national": {
+    "scene": "globe"
+  },
+  "world": {
+    "scene": "globe"
+  },
+  "earth": {
+    "scene": "globe"
+  },
+  "fact": {
+    "scene": "globe"
+  },
+  "abroad": {
+    "scene": "travel"
+  },
+  "foreign": {
+    "scene": "travel"
+  },
+  "experience": {
+    "scene": "travel"
+  },
+  "vacation": {
+    "scene": "travel"
+  },
+  "airport": {
+    "scene": "travel"
+  },
+  "place": {
+    "scene": "map"
+  },
+  "area": {
+    "scene": "map"
+  },
+  "somewhere": {
+    "scene": "map"
+  },
+  "from": {
+    "scene": "map"
+  },
+  "to": {
+    "scene": "map"
+  },
+  "where": {
+    "scene": "map"
+  },
+  "plan": {
+    "scene": "map"
+  },
+  "way": {
+    "scene": "map"
+  },
+  "wide": {
+    "scene": "wide"
+  },
+  "line": {
+    "scene": "line"
+  },
+  "straight": {
+    "scene": "line"
+  },
+  "height": {
+    "scene": "height"
+  },
+  "tall": {
+    "scene": "height"
+  },
+  "high": {
+    "scene": "height"
+  },
+  "low": {
+    "scene": "height"
+  },
+  "long": {
+    "scene": "long"
+  },
+  "mile": {
+    "scene": "long"
+  },
+  "size": {
+    "scene": "size"
+  },
+  "medium": {
+    "scene": "size"
+  },
+  "short": {
+    "scene": "size"
+  },
+  "thick": {
+    "scene": "size"
+  },
+  "thin": {
+    "scene": "size"
+  },
+  "neck": {
+    "scene": "body",
+    "option": "neck"
+  },
+  "stomach": {
+    "scene": "body",
+    "option": "stomach"
+  },
+  "shoulder": {
+    "scene": "body",
+    "option": "shoulder"
+  },
+  "front": {
+    "scene": "body",
+    "option": "front"
+  },
+  "back": {
+    "scene": "body",
+    "option": "back"
+  },
+  "deep": {
+    "scene": "deep"
+  },
+  "heat": {
+    "scene": "fire"
+  },
+  "hot": {
+    "scene": "fire"
+  },
+  "dangerous": {
+    "scene": "danger"
+  },
+  "terrible": {
+    "scene": "danger"
+  },
+  "attack": {
+    "scene": "attack"
+  },
+  "must": {
+    "scene": "danger"
+  },
+  "health": {
+    "scene": "healthy"
+  },
+  "sick": {
+    "scene": "sick"
+  },
+  "fever": {
+    "scene": "sick"
+  },
+  "healthy": {
+    "scene": "healthy"
+  },
+  "strong": {
+    "scene": "heavy",
+    "option": "strong"
+  },
+  "weak": {
+    "scene": "heavy",
+    "option": "weak"
+  },
+  "hear": {
+    "scene": "listen"
+  },
+  "listen": {
+    "scene": "listen"
+  },
+  "noise": {
+    "scene": "listen"
+  },
+  "noisy": {
+    "scene": "listen"
+  },
+  "smell": {
+    "scene": "smell"
+  },
+  "polite": {
+    "scene": "polite"
+  },
+  "thank": {
+    "scene": "polite"
+  },
+  "hello": {
+    "scene": "polite"
+  },
+  "hi": {
+    "scene": "polite"
+  },
+  "welcome": {
+    "scene": "polite"
+  },
+  "good-bye": {
+    "scene": "polite"
+  },
+  "excuse": {
+    "scene": "polite"
+  },
+  "sir": {
+    "scene": "polite"
+  },
+  "handsome": {
+    "scene": "faceMirror"
+  },
+  "look": {
+    "scene": "faceMirror"
+  },
+  "see": {
+    "scene": "faceMirror"
+  },
+  "sight": {
+    "scene": "faceMirror"
+  },
+  "someone": {
+    "scene": "doorPerson"
+  },
+  "visitor": {
+    "scene": "doorPerson"
+  },
+  "invite": {
+    "scene": "invite"
+  },
+  "dear": {
+    "scene": "invite"
+  },
+  "celebrate": {
+    "scene": "invite"
+  },
+  "party": {
+    "scene": "invite"
+  },
+  "mailman": {
+    "scene": "mail"
+  },
+  "send": {
+    "scene": "mail"
+  },
+  "postcard": {
+    "scene": "mail"
+  },
+  "stamp": {
+    "scene": "mail"
+  },
+  "driver": {
+    "scene": "vehicle"
+  },
+  "drive": {
+    "scene": "vehicle"
+  },
+  "by": {
+    "scene": "vehicle"
+  },
+  "traffic": {
+    "scene": "vehicle"
+  },
+  "ride": {
+    "scene": "bicycle"
+  },
+  "row": {
+    "scene": "sail"
+  },
+  "while": {
+    "scene": "musicListen"
+  },
+  "season": {
+    "scene": "season"
+  },
+  "summer": {
+    "scene": "season"
+  },
+  "winter": {
+    "scene": "season"
+  },
+  "count": {
+    "scene": "order"
+  },
+  "number": {
+    "scene": "order"
+  },
+  "next": {
+    "scene": "order"
+  },
+  "last": {
+    "scene": "order"
+  },
+  "begin": {
+    "scene": "order"
+  },
+  "start": {
+    "scene": "order"
+  },
+  "end": {
+    "scene": "order"
+  },
+  "once": {
+    "scene": "order"
+  },
+  "twice": {
+    "scene": "order"
+  },
+  "total": {
+    "scene": "order"
+  },
+  "first": {
+    "scene": "order"
+  },
+  "shape": {
+    "scene": "shapes"
+  },
+  "math": {
+    "scene": "shapes"
+  },
+  "bright": {
+    "scene": "light"
+  },
+  "important": {
+    "scene": "light"
+  },
+  "shine": {
+    "scene": "light"
+  },
+  "power": {
+    "scene": "light"
+  },
+  "main": {
+    "scene": "star"
+  },
+  "rain": {
+    "scene": "rain"
+  },
+  "rainy": {
+    "scene": "rain"
+  },
+  "sky": {
+    "scene": "sky"
+  },
+  "weather": {
+    "scene": "sky"
+  },
+  "wind": {
+    "scene": "wind"
+  },
+  "windy": {
+    "scene": "wind"
+  },
+  "warm": {
+    "scene": "wind"
+  },
+  "cool": {
+    "scene": "wind"
+  },
+  "video": {
+    "scene": "video"
+  },
+  "movie": {
+    "scene": "video"
+  },
+  "name": {
+    "scene": "name"
+  },
+  "own": {
+    "scene": "name"
+  },
+  "of": {
+    "scene": "name"
+  },
+  "belong": {
+    "scene": "belong"
+  },
+  "have": {
+    "scene": "belong"
+  },
+  "uniform": {
+    "scene": "uniform"
+  },
+  "young": {
+    "scene": "height"
+  },
+  "should": {
+    "scene": "rule"
+  },
+  "when": {
+    "scene": "question"
+  },
+  "item": {
+    "scene": "boxArrow",
+    "option": "open"
+  },
+  "case": {
+    "scene": "boxArrow",
+    "option": "open"
+  },
+  "again": {
+    "scene": "repeat"
+  },
+  "repeat": {
+    "scene": "repeat"
+  },
+  "ahead": {
+    "scene": "walk"
+  },
+  "along": {
+    "scene": "walk"
+  },
+  "art": {
+    "scene": "paint"
+  },
+  "draw": {
+    "scene": "paint"
+  },
+  "at": {
+    "scene": "house"
+  },
+  "nature": {
+    "scene": "forest"
+  },
+  "band": {
+    "scene": "band"
+  },
+  "bench": {
+    "scene": "bench"
+  },
+  "bite": {
+    "scene": "bite"
+  },
+  "block": {
+    "scene": "neighborhood"
+  },
+  "common": {
+    "scene": "neighborhood"
+  },
+  "blow": {
+    "scene": "blow"
+  },
+  "born": {
+    "scene": "family",
+    "option": "son"
+  },
+  "borrow": {
+    "scene": "give"
+  },
+  "lend": {
+    "scene": "give"
+  },
+  "boss": {
+    "scene": "work"
+  },
+  "bottom": {
+    "scene": "floor"
+  },
+  "floor": {
+    "scene": "floor"
+  },
+  "brave": {
+    "scene": "heavy",
+    "option": "strong"
+  },
+  "heavy": {
+    "scene": "heavy"
+  },
+  "break": {
+    "scene": "share"
+  },
+  "share": {
+    "scene": "share"
+  },
+  "camp": {
+    "scene": "camp"
+  },
+  "chalk": {
+    "scene": "classroom"
+  },
+  "classmate": {
+    "scene": "classroom"
+  },
+  "cheap": {
+    "scene": "moneyPrice",
+    "option": "cheap"
+  },
+  "poor": {
+    "scene": "moneyPrice",
+    "option": "cheap"
+  },
+  "expensive": {
+    "scene": "moneyPrice",
+    "option": "expensive"
+  },
+  "rich": {
+    "scene": "moneyPrice",
+    "option": "expensive"
+  },
+  "cheer": {
+    "scene": "music"
+  },
+  "clear": {
+    "scene": "document"
+  },
+  "close": {
+    "scene": "leave"
+  },
+  "cold": {
+    "scene": "cold"
+  },
+  "collect": {
+    "scene": "fruit"
+  },
+  "else": {
+    "scene": "fruit"
+  },
+  "color": {
+    "scene": "palette"
+  },
+  "comfortable": {
+    "scene": "comfortable"
+  },
+  "cross": {
+    "scene": "bridge"
+  },
+  "day": {
+    "scene": "sky"
+  },
+  "noon": {
+    "scene": "sky"
+  },
+  "deal": {
+    "scene": "timeOrder",
+    "option": "after"
+  },
+  "difficult": {
+    "scene": "puzzle",
+    "option": "hard"
+  },
+  "hard": {
+    "scene": "puzzle",
+    "option": "hard"
+  },
+  "try": {
+    "scene": "puzzle",
+    "option": "hard"
+  },
+  "easy": {
+    "scene": "puzzle",
+    "option": "easy"
+  },
+  "simple": {
+    "scene": "puzzle",
+    "option": "easy"
+  },
+  "fail": {
+    "scene": "puzzle",
+    "option": "hard"
+  },
+  "drop": {
+    "scene": "drop"
+  },
+  "fall": {
+    "scene": "drop"
+  },
+  "each": {
+    "scene": "each"
+  },
+  "enough": {
+    "scene": "enough"
+  },
+  "eve": {
+    "scene": "night"
+  },
+  "except": {
+    "scene": "except"
+  },
+  "far": {
+    "scene": "far"
+  },
+  "fill": {
+    "scene": "fill"
+  },
+  "find": {
+    "scene": "search"
+  },
+  "lose": {
+    "scene": "search"
+  },
+  "gate": {
+    "scene": "door",
+    "option": "open"
+  },
+  "give": {
+    "scene": "give"
+  },
+  "hike": {
+    "scene": "hike"
+  },
+  "hit": {
+    "scene": "hit"
+  },
+  "hungry": {
+    "scene": "eat"
+  },
+  "knock": {
+    "scene": "knock"
+  },
+  "late": {
+    "scene": "clockPerson",
+    "option": "11"
+  },
+  "meet": {
+    "scene": "handshake"
+  },
+  "shake": {
+    "scene": "handshake"
+  },
+  "middle": {
+    "scene": "middle"
+  },
+  "new": {
+    "scene": "unbox"
+  },
+  "over": {
+    "scene": "over"
+  },
+  "park": {
+    "scene": "park"
+  },
+  "pond": {
+    "scene": "pond"
+  },
+  "proud": {
+    "scene": "proud"
+  },
+  "quite": {
+    "scene": "check"
+  },
+  "reach": {
+    "scene": "reach"
+  },
+  "roll": {
+    "scene": "roll"
+  },
+  "seed": {
+    "scene": "seed"
+  },
+  "sentence": {
+    "scene": "conversation"
+  },
+  "shy": {
+    "scene": "shy"
+  },
+  "sit": {
+    "scene": "sit"
+  },
+  "strange": {
+    "scene": "thinking"
+  },
+  "stranger": {
+    "scene": "thinking"
+  },
+  "the": {
+    "scene": "read"
+  },
+  "typhoon": {
+    "scene": "rain"
+  },
+  "wake": {
+    "scene": "clockPerson",
+    "option": "7"
+  },
+  "wear": {
+    "scene": "wear"
+  },
+  "without": {
+    "scene": "cooking"
+  },
+  "bad": {
+    "scene": "badApple"
+  },
+  "cheat": {
+    "scene": "cheat"
+  },
+  "north": {
+    "scene": "compass",
+    "option": "0"
+  },
+  "east": {
+    "scene": "compass",
+    "option": "1"
+  },
+  "south": {
+    "scene": "compass",
+    "option": "2"
+  },
+  "west": {
+    "scene": "compass",
+    "option": "3"
+  },
+  "bat": {
+    "symbol": "🏏"
+  },
+  "bank": {
+    "symbol": "🏦"
+  },
+  "bathroom": {
+    "symbol": "🚿"
+  },
+  "be": {
+    "symbol": "🟰"
+  },
+  "belt": {
+    "symbol": "👖"
+  },
+  "blackboard": {
+    "symbol": "🏫"
+  },
+  "blank": {
+    "symbol": "⬜"
+  },
+  "bow": {
+    "symbol": "🙇"
+  },
+  "brush": {
+    "symbol": "🖌️"
+  },
+  "bug": {
+    "symbol": "🐞"
+  },
+  "button": {
+    "symbol": "🔘"
+  },
+  "call": {
+    "symbol": "📞"
+  },
+  "chicken": {
+    "symbol": "🐔"
+  },
+  "clothes": {
+    "symbol": "👕"
+  },
+  "comb": {
+    "symbol": "🪮"
+  },
+  "comic": {
+    "symbol": "📖"
+  },
+  "corner": {
+    "symbol": "📐"
+  },
+  "dentist": {
+    "symbol": "🦷"
+  },
+  "dictionary": {
+    "symbol": "📖"
+  },
+  "earthquake": {
+    "symbol": "🫨"
+  },
+  "elementary school": {
+    "symbol": "🏫"
+  },
+  "even": {
+    "symbol": "🟰"
+  },
+  "fan": {
+    "symbol": "🪭"
+  },
+  "fly": {
+    "symbol": "🪰"
+  },
+  "free": {
+    "symbol": "🕊️"
+  },
+  "fresh": {
+    "symbol": "🥬"
+  },
+  "get": {
+    "symbol": "🎁"
+  },
+  "god": {
+    "symbol": "🙏"
+  },
+  "ground": {
+    "symbol": "🌱"
+  },
+  "hang": {
+    "symbol": "🪝"
+  },
+  "happen": {
+    "symbol": "💥"
+  },
+  "hate": {
+    "symbol": "🙅"
+  },
+  "honest": {
+    "symbol": "🤝"
+  },
+  "hunt": {
+    "symbol": "🏹"
+  },
+  "insect": {
+    "symbol": "🐝"
+  },
+  "juice": {
+    "symbol": "🧃"
+  },
+  "junior high school": {
+    "symbol": "🏫"
+  },
+  "kid": {
+    "symbol": "🧒"
+  },
+  "lawyer": {
+    "symbol": "⚖️"
+  },
+  "library": {
+    "symbol": "📚"
+  },
+  "lie": {
+    "symbol": "🛌"
+  },
+  "light": {
+    "symbol": "💡"
+  },
+  "machine": {
+    "symbol": "⚙️"
+  },
+  "marker": {
+    "symbol": "🖍️"
+  },
+  "mask": {
+    "symbol": "🎭"
+  },
+  "menu": {
+    "symbol": "📋"
+  },
+  "money": {
+    "symbol": "💵"
+  },
+  "much": {
+    "symbol": "🥛"
+  },
+  "mud": {
+    "symbol": "🟤"
+  },
+  "news": {
+    "symbol": "📰"
+  },
+  "notice": {
+    "symbol": "📢"
+  },
+  "nurse": {
+    "symbol": "🩺"
+  },
+  "off": {
+    "symbol": "💡"
+  },
+  "old": {
+    "symbol": "🧸"
+  },
+  "paint": {
+    "symbol": "🎨"
+  },
+  "paste": {
+    "symbol": "🧴"
+  },
+  "pet": {
+    "symbol": "🐕"
+  },
+  "photo": {
+    "symbol": "🖼️"
+  },
+  "picnic": {
+    "symbol": "🧺"
+  },
+  "pop": {
+    "symbol": "🎵"
+  },
+  "pork": {
+    "symbol": "🥩"
+  },
+  "reporter": {
+    "symbol": "🎤"
+  },
+  "ring": {
+    "symbol": "💍"
+  },
+  "root": {
+    "symbol": "🌳"
+  },
+  "safe": {
+    "symbol": "🛡️"
+  },
+  "save": {
+    "symbol": "💾"
+  },
+  "senior high school": {
+    "symbol": "🏫"
+  },
+  "sharp": {
+    "symbol": "✏️"
+  },
+  "side": {
+    "symbol": "📦"
+  },
+  "sidewalk": {
+    "symbol": "🛣️"
+  },
+  "snack": {
+    "symbol": "🍪"
+  },
+  "space": {
+    "symbol": "🚀"
+  },
+  "spend": {
+    "symbol": "💸"
+  },
+  "street": {
+    "symbol": "🛣️"
+  },
+  "subject": {
+    "symbol": "📚"
+  },
+  "sweater": {
+    "symbol": "🧶"
+  },
+  "sweet": {
+    "symbol": "🍯"
+  },
+  "theater": {
+    "symbol": "🎭"
+  },
+  "throat": {
+    "symbol": "🗣️"
+  },
+  "tip": {
+    "symbol": "💡"
+  },
+  "top": {
+    "symbol": "🔝"
+  },
+  "touch": {
+    "symbol": "👆"
+  },
+  "trick": {
+    "symbol": "🪄"
+  },
+  "very": {
+    "symbol": "❗"
+  },
+  "watch": {
+    "symbol": "⌚"
+  },
+  "wave": {
+    "symbol": "🌊"
+  },
+  "year": {
+    "symbol": "📅"
+  },
+  "zoo": {
+    "symbol": "🦁"
+  }
+}

@@ -4,7 +4,7 @@ const review=JSON.parse(fs.readFileSync('source/card-review.json','utf8'));
 const template=fs.readFileSync('source/index.template.html','utf8');
 const visuals=fs.readFileSync('source/card-visuals.js','utf8').replace('/* CARD_REVIEW_DATA */',JSON.stringify(review));
 const spatial=template.slice(template.indexOf('const spatialScenes='),template.indexOf('const pronunciationCache='));
-const ctx={Map,esc:s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;'),zhText:s=>s};vm.createContext(ctx);vm.runInContext(visuals+'\n'+spatial,ctx);
+const ctx={Map,esc:s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;'),zhText:s=>s};vm.createContext(ctx);vm.runInContext(fs.readFileSync('source/scene-art.js','utf8').replace('/* SCENE_PLAN */',fs.readFileSync('source/scene-plan.json','utf8'))+'\n'+visuals+'\n'+spatial,ctx);
 assert.equal(Object.keys(review).length,1211);
 for(const row of catalog){assert(review[row.word],row.word);const html=vm.runInContext('reviewedArt('+JSON.stringify({...row,emoji:review[row.word].originalEmoji})+')',ctx);assert(html.length>20,row.word);assert(!html.includes('undefined'),row.word);assert(!/[\u3400-\u9fff]/.test(html),'Chinese caption remains: '+row.word);assert(review[row.word].zh.trim(),row.word)}
 for(const word of ['actress','actually','after','afternoon']){const art=vm.runInContext('reviewedArt('+JSON.stringify({word})+')',ctx);assert(!art.includes('visual-context'),word);assert(!art.includes('🔄'),word)}
