@@ -3,7 +3,7 @@ import hashlib,io,json,zipfile,shutil
 root=Path(__file__).parent
 out=root/'_site'
 out.mkdir(exist_ok=True)
-for name in ['index.html','sources.html']:shutil.copy2(root/name,out/name)
+for name in ['index.html','sources.html','social-preview.png']:shutil.copy2(root/name,out/name)
 manifest=root/'assets-parts/manifest.json'
 if manifest.exists():
     chunks=[]
