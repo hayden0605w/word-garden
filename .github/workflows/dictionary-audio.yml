@@ -1,0 +1,60 @@
+name: Download dictionary audio
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/dictionary-audio.yml'
+      - 'tools/dictionary-audio/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: dictionary-audio-download
+  cancel-in-progress: false
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    timeout-minutes: 110
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Restore previous checkpoint
+        uses: actions/cache/restore@v4
+        with:
+          path: tools/dictionary-audio/work
+          key: dictionary-audio-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: dictionary-audio-v1-
+      - name: Download slowly (one request per 5 seconds or slower)
+        run: python -u tools/dictionary-audio/download.py
+        env:
+          AUDIO_MAX_SECONDS: '5400'
+      - name: Save checkpoint
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: tools/dictionary-audio/work
+          key: dictionary-audio-v1-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Upload recordings and progress
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dictionary-audio-progress
+          path: tools/dictionary-audio/work
+          retention-days: 90
+      - name: Show progress summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os, pathlib
+          p=pathlib.Path('tools/dictionary-audio/work/download-state.json')
+          if p.exists():
+              s=json.loads(p.read_text())
+              text=f"Processed: {len(s['words'])} / {s['total']}\n\n"
+              text+='\n'.join(f"- {k}: {v}" for k,v in s['counts'].items())
+              if s.get('pause_reason'):text+='\n\nPaused: '+s['pause_reason']
+              if s.get('finished'):text+='\n\nReview finished.'
+              text+='\n\nRecordings are saved as artifacts; website audio has not been replaced.'
+              with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:f.write(text)
+          PY
