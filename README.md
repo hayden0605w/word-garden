@@ -4,7 +4,7 @@
 
 ## Hosting
 
-This is a static GitHub Pages site. Enable Settings → Pages → Source: GitHub Actions. The Pages workflow extracts the checked-in assets.zip and publishes _site. No Cloudflare, database, account secrets, API keys, or learner progress are included in this repository.
+This is a static GitHub Pages site. Enable Settings → Pages → Source: GitHub Actions. The Pages workflow extracts the checked-in the checked-in assets-parts/ archive and publishes _site. No Cloudflare, database, account secrets, API keys, or learner progress are included in this repository.
 
 ## Progress sync
 
@@ -14,4 +14,8 @@ Each device updates its own encrypted file. Review counters merge across devices
 
 ## Sources and licenses
 
-See sources.html for the official word-list source, ECDICT MIT notice, individual recording credits, licenses, and the four clearly labelled composite recordings. Unicode Emoji are conceptual hints, not official curriculum images. Audio files are bundled in assets.zip, with an individual recording URL and license manifest inside.
+See sources.html for the official word-list source, ECDICT MIT notice, individual recording credits, licenses, and the four clearly labelled composite recordings. Unicode Emoji are conceptual hints, not official curriculum images. Audio files are bundled in the checked-in assets-parts/ archive, with an individual recording URL and license manifest inside.
+
+## Editing
+
+Edit source/index.template.html, source/gist-sync.js, or source/zhuyin.js, then run node build.mjs. Run python deploy.py to assemble _site. GitHub Actions runs both steps automatically. Binary asset parts are verified against their SHA-256 manifest before extraction.

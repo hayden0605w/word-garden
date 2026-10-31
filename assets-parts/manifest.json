@@ -1,0 +1,92 @@
+[
+  {
+    "path": "assets-parts/000.part",
+    "size": 1048576,
+    "sha256": "1020d25707bd596a5145e9357d91bc910110eda70769ea21367fb90d4875e311"
+  },
+  {
+    "path": "assets-parts/001.part",
+    "size": 1048576,
+    "sha256": "12f9b5863be80706d4d2c5981c8edc3c624e5cfb9bebd01ab75468bab4b50c0c"
+  },
+  {
+    "path": "assets-parts/002.part",
+    "size": 1048576,
+    "sha256": "86b5efb9763f563dc4807d616e5dfe84119536079f132ac95e36e5cbe2b0872b"
+  },
+  {
+    "path": "assets-parts/003.part",
+    "size": 1048576,
+    "sha256": "63a080f5e8b6cee11c115868cf3a95d1a54c6bba3000cabf1e65124f75467a85"
+  },
+  {
+    "path": "assets-parts/004.part",
+    "size": 1048576,
+    "sha256": "4d4004e853f5336a8a372d4239f3ce6aa95082a24478e314dfbe9c2aaa5d855a"
+  },
+  {
+    "path": "assets-parts/005.part",
+    "size": 1048576,
+    "sha256": "8c9f8e7b414f0a42f361e74a5989e78acbcb02b1e27081ec85cb095e54cf6b7c"
+  },
+  {
+    "path": "assets-parts/006.part",
+    "size": 1048576,
+    "sha256": "6a7b0fb5eb65c12d50932e176ecf778e05f828b5c2ee678ffc16ea8d25205c59"
+  },
+  {
+    "path": "assets-parts/007.part",
+    "size": 1048576,
+    "sha256": "57cc8e0f97d5532cda8eae83d3a4357355cea1e4ac075a507bbaf3191fa62f15"
+  },
+  {
+    "path": "assets-parts/008.part",
+    "size": 1048576,
+    "sha256": "12144244054d428e6b716770d17948c440cb0c681a157d14358b01c427277fdd"
+  },
+  {
+    "path": "assets-parts/009.part",
+    "size": 1048576,
+    "sha256": "063b958d43b5b55ce3c04f9cabb136c00a4def4cf5e339bd3cb4092c1ad3717c"
+  },
+  {
+    "path": "assets-parts/010.part",
+    "size": 1048576,
+    "sha256": "d51829db12fbd5f5bf6ea3f19c58e42d68918d35d757b0a0c3f296f4e4e84fe4"
+  },
+  {
+    "path": "assets-parts/011.part",
+    "size": 1048576,
+    "sha256": "81b83cfb2a33faf7f1dc06c41faec0e2cace74231dae045dc692a57cb39f788e"
+  },
+  {
+    "path": "assets-parts/012.part",
+    "size": 1048576,
+    "sha256": "96732bbd24ad84cad1912fba7e1b20c7f5123c395da11e85f3b21462f04e08b3"
+  },
+  {
+    "path": "assets-parts/013.part",
+    "size": 1048576,
+    "sha256": "d21156ddcedafe37b8f2360d7d3ee71e6831da421675f3209990c81e14c860d6"
+  },
+  {
+    "path": "assets-parts/014.part",
+    "size": 1048576,
+    "sha256": "2df12c8b015c3cdc96be10b176fef56ce0ca0ea1b618cb3f3e551cc2953eed3f"
+  },
+  {
+    "path": "assets-parts/015.part",
+    "size": 1048576,
+    "sha256": "74819c3b62529c1b8ac821db0099725cd003fe893061842583e29bc69e874094"
+  },
+  {
+    "path": "assets-parts/016.part",
+    "size": 1048576,
+    "sha256": "70b511da75b7632d8c7703cdf0317cb312dfdf50a855ce5cf92fc3fd076e0d1c"
+  },
+  {
+    "path": "assets-parts/017.part",
+    "size": 561823,
+    "sha256": "86292d78a856c104faa324384a8e2c748004c8341a235e2df4cbd89d3a85a11d"
+  }
+]
