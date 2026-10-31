@@ -4,7 +4,7 @@ All 1,211 catalog rows have an explicit review record in `source/card-review.jso
 The authoring decisions are retained in `source/card-review.tsv` and `source/card-review-retained.txt`.
 
 - Concrete nouns keep an accurate symbol or use a more specific illustration.
-- Actions and abstract words use short Chinese situations rather than unrelated category icons.
+- Actions and abstract words use reviewed visual combinations. Chinese scene captions were removed at the user’s request; editorial context remains in the review data.
 - Numbers, ordinals, months, weekdays, colors and spatial relationships use distinct diagrams.
 - 159 Chinese learning meanings were corrected to common, child-appropriate senses.
 - Existing saved cards receive display corrections when their meaning still matches the old built-in meaning. Custom meanings and uploaded pictures are preserved.

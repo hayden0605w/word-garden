@@ -1,0 +1,11 @@
+import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';
+const root=fs.existsSync('source/phonics-client.js')?'source/':'.github-release/source/';
+const data=JSON.parse(fs.readFileSync(root+'phonics-data.json','utf8'));
+for(const [word,aid] of Object.entries(data)){assert.equal(aid.parts.join('').toLowerCase(),word,word);assert(aid.note.trim(),word);assert(aid.focus.every(f=>word.includes(f.toLowerCase())),word)}
+const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+const ctx={esc,zhText:esc,document:{getElementById(){return null}},checked:false,current:null};vm.createContext(ctx);vm.runInContext(fs.readFileSync(root+'phonics-client.js','utf8').replace('/* PHONICS_DATA */',JSON.stringify(data)),ctx);
+for(const word of ['blue','ship','cake','said','give','friend','one']){const html=vm.runInContext('phonicsHtml('+JSON.stringify(word)+')',ctx);assert(html.includes('<mark>'),word);assert(html.includes('拼讀小提示'),word)}
+assert.deepEqual(JSON.parse(vm.runInContext('JSON.stringify(spellingAid("cake").parts)',ctx)),['c','a','k','e']);assert(vm.runInContext('spellingAid("give").note',ctx).includes('例外'));assert.equal(vm.runInContext('spellingAid("a.m.").kind',ctx),'spelling');assert(!vm.runInContext('phonicsHtml("<script>")',ctx).includes('<script>'));
+const template=fs.readFileSync(root+'index.template.html','utf8'),check=template.slice(template.indexOf('function check(){'),template.indexOf('function rate('));
+for(const answer of ['blue','wrong']){let plays=0;const nodes=Object.fromEntries(['answer','letters','keyboard-mode','feedback','actions'].map(id=>[id,{value:answer,innerHTML:'',insertAdjacentHTML(where,html){this.innerHTML+=html}}]));Object.assign(ctx,{checked:false,revealed:false,current:{word:'blue',zh:'藍色'},cardMeaning:c=>c.zh,speak(){plays++},document:{getElementById:id=>nodes[id],querySelectorAll:()=>[]}});vm.runInContext(check,ctx);vm.runInContext('check();check()',ctx);assert.equal(nodes.feedback.innerHTML.includes('phonics-help'),answer!=='blue');assert.equal(nodes.actions.innerHTML.includes('看拼讀提示'),answer==='blue');assert.equal(plays,1)}
+console.log('PASS: all curated spellings reconstruct exactly, focus validation, blue/ship/cake/irregular hints, safe fallback, automatic wrong-answer hint and optional correct-answer hint');
