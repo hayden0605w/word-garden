@@ -29,6 +29,19 @@ if overrides.exists():
         shutil.copy2(root/'audio-overrides'/filename,out/entry['url'])
         pronunciations[word]=entry
     pronunciation_path.write_text(json.dumps(pronunciations,ensure_ascii=False,separators=(',',':')))
+# The reviewed learning meanings also ship in the static catalog itself.
+review_path=root/'source/card-review.json'
+if review_path.exists():
+    review=json.loads(review_path.read_text())
+    catalog_path=out/'assets/catalog.json'
+    catalog=json.loads(catalog_path.read_text())
+    if len(review)!=len(catalog['words']):raise ValueError('Incomplete card review')
+    for word in catalog['words']:
+        entry=review[word['word']]
+        word['zh']=entry['zh']
+        if entry['symbol']=='@spatial':word['category']='方位與位置'
+    catalog['reviewedCount']=len(review)
+    catalog_path.write_text(json.dumps(catalog,ensure_ascii=False,separators=(',',':')))
 shutil.copytree(root/'vendor',out/'vendor',dirs_exist_ok=True)
 (out/'.nojekyll').touch()
 print('GitHub Pages build complete')

@@ -23,6 +23,7 @@ jobs:
           python-version: '3.12'
       - run: node build.mjs
       - run: python deploy.py
+      - run: node test-card-review.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
