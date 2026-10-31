@@ -1,0 +1,13 @@
+{
+  "blue": {
+    "file": "blue-us.ogg",
+    "url": "assets/audio/a7aa3b59f60509a49ee817f2.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=839240",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false
+  }
+}
