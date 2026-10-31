@@ -18,5 +18,6 @@ with zipfile.ZipFile(archive) as z:
         target=(out/entry.filename).resolve()
         if not target.is_relative_to(out.resolve()):raise ValueError('Unsafe archive path')
     z.extractall(out)
+shutil.copytree(root/'vendor',out/'vendor',dirs_exist_ok=True)
 (out/'.nojekyll').touch()
 print('GitHub Pages build complete')
