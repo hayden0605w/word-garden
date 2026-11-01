@@ -26,6 +26,7 @@ jobs:
       - run: node test-card-review.mjs
       - run: node test-phonics.mjs
       - run: node test-scenes.mjs
+      - run: node test-garden.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
