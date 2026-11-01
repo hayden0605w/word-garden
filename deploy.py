@@ -18,6 +18,21 @@ with zipfile.ZipFile(archive) as z:
         target=(out/entry.filename).resolve()
         if not target.is_relative_to(out.resolve()):raise ValueError('Unsafe archive path')
     z.extractall(out)
+# Verified dictionary recordings are stored in checksum-protected archive parts.
+dictionary_parts=root/'audio-overrides/parts.json'
+if dictionary_parts.exists():
+    chunks=[]
+    for entry in json.loads(dictionary_parts.read_text()):
+        part=(root/entry['path']).read_bytes()
+        if len(part)!=entry['size'] or hashlib.sha256(part).hexdigest()!=entry['sha256']:
+            raise ValueError('Dictionary audio checksum failed: '+entry['path'])
+        chunks.append(part)
+    with zipfile.ZipFile(io.BytesIO(b''.join(chunks))) as z:
+        for entry in z.infolist():
+            target=(out/entry.filename).resolve()
+            if not target.is_relative_to((out/'assets/audio').resolve()):raise ValueError('Unsafe audio archive path')
+        z.extractall(out)
+
 # Small reviewed pronunciation replacements overlay the original bundled archive.
 overrides=root/'audio-overrides/manifest.json'
 if overrides.exists():
@@ -26,7 +41,11 @@ if overrides.exists():
     for word,entry in json.loads(overrides.read_text()).items():
         entry=dict(entry)
         filename=entry.pop('file')
-        shutil.copy2(root/'audio-overrides'/filename,out/entry['url'])
+        if entry.get('sha256'):
+            target=out/entry['url']
+            if not target.is_file() or hashlib.sha256(target.read_bytes()).hexdigest()!=entry['sha256']:
+                raise ValueError('Bundled dictionary recording invalid: '+word)
+        else:shutil.copy2(root/'audio-overrides'/filename,out/entry['url'])
         pronunciations[word]=entry
     pronunciation_path.write_text(json.dumps(pronunciations,ensure_ascii=False,separators=(',',':')))
 # The reviewed learning meanings also ship in the static catalog itself.

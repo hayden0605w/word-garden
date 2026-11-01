@@ -1,0 +1,57 @@
+[
+  {
+    "path": "audio-overrides/parts/part-000.bin",
+    "size": 140000,
+    "sha256": "6334b1b26e5a0c10d817aaaa16e9af47c75ca4ca5a12e744c63f93a0ff67679f"
+  },
+  {
+    "path": "audio-overrides/parts/part-001.bin",
+    "size": 140000,
+    "sha256": "482707096b5e7db368e094ce6857cffc490e3e6c5ea00b52fc4918b04a0f2ec7"
+  },
+  {
+    "path": "audio-overrides/parts/part-002.bin",
+    "size": 140000,
+    "sha256": "8a9223f9649c05e4188d7180bbc8e74f5e54d5e7ad9c2c35b420ac2b42c02f98"
+  },
+  {
+    "path": "audio-overrides/parts/part-003.bin",
+    "size": 140000,
+    "sha256": "79b67ab01821e7c76be9aef8ffe8cc61573a7399c8c131e28bb1722913dd5ce6"
+  },
+  {
+    "path": "audio-overrides/parts/part-004.bin",
+    "size": 140000,
+    "sha256": "06e8765f4401357d3fae733d135670f570287d9160c8d4d8a72fbe4cda3055b3"
+  },
+  {
+    "path": "audio-overrides/parts/part-005.bin",
+    "size": 140000,
+    "sha256": "f014e6c4021bfe6e62d87871470648ca619abb4b50a9fb582c93db9e9c5b143b"
+  },
+  {
+    "path": "audio-overrides/parts/part-006.bin",
+    "size": 140000,
+    "sha256": "15f52041bba9e6f8a9e54c2c9370264881c814706876d70e1e76a12f8f3311e5"
+  },
+  {
+    "path": "audio-overrides/parts/part-007.bin",
+    "size": 140000,
+    "sha256": "397f9d44b3d793bc9bfc17cf1dfe7e691b2b5c3a5cc81751fc8652e7683030c0"
+  },
+  {
+    "path": "audio-overrides/parts/part-008.bin",
+    "size": 140000,
+    "sha256": "844ba592000d2a58db192516f27f257a530abf1962bd870ea8084839145b3ba2"
+  },
+  {
+    "path": "audio-overrides/parts/part-009.bin",
+    "size": 140000,
+    "sha256": "78ce69b3c68a0a366add6bf8a0a06931456350ff777a7472f54bb790bfc7c5d1"
+  },
+  {
+    "path": "audio-overrides/parts/part-010.bin",
+    "size": 91159,
+    "sha256": "564b261469dee2ae377ee69913de2411eafa8f6bc745769d4df1debc92ff4e17"
+  }
+]

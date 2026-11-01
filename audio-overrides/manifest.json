@@ -9,5 +9,1318 @@
     },
     "note": "Free Dictionary API 所列美式真人錄音",
     "composite": false
+  },
+  "again": {
+    "file": "dict-9d62b1b95aebbeb834c0e4fc.ogg",
+    "url": "assets/audio/9d62b1b95aebbeb834c0e4fc.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=9014240",
+    "license": {
+      "name": "CC BY 3.0 us",
+      "url": "https://creativecommons.org/licenses/by/3.0/us/deed.en"
+    },
+    "author": "Association Shtooka, Judith Franck",
+    "note": "Free Dictionary API 所列真人錄音",
+    "composite": false,
+    "sha256": "9d62b1b95aebbeb834c0e4fc2075f6a0622024aad3680313a1292e573c8a1055"
+  },
+  "and": {
+    "file": "dict-6f9e114b00e45daa5c1797d3.ogg",
+    "url": "assets/audio/6f9e114b00e45daa5c1797d3.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=192031",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "6f9e114b00e45daa5c1797d31241ae1e52e76bc2ff80f3b011c0a6e08b65d66d"
+  },
+  "apartment": {
+    "file": "dict-bc3f6d321126855437296b90.ogg",
+    "url": "assets/audio/bc3f6d321126855437296b90.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1231954",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "bc3f6d321126855437296b90d80703866673b1d08d22b03cae54e83489ef5fa7"
+  },
+  "at": {
+    "file": "dict-3f25da75ab8df0f52c98905b.ogg",
+    "url": "assets/audio/3f25da75ab8df0f52c98905b.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=192081",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "3f25da75ab8df0f52c98905bed23f6681443d8e5b78419435383efa1d84cb50c"
+  },
+  "away": {
+    "file": "dict-d738f75e791a18df66cb367e.ogg",
+    "url": "assets/audio/d738f75e791a18df66cb367e.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=617720",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "d738f75e791a18df66cb367ede4d25d0693b328508e8aa709fae0ed382371419"
+  },
+  "beach": {
+    "file": "dict-cf7862db54198bee8b3aef89.ogg",
+    "url": "assets/audio/cf7862db54198bee8b3aef89.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1318130",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "cf7862db54198bee8b3aef89c070ae6746c91aa086d00b00976eb0468b4d4ebb"
+  },
+  "birthday": {
+    "file": "dict-716fda1ec7ade7e8d5773fd1.ogg",
+    "url": "assets/audio/716fda1ec7ade7e8d5773fd1.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1234363",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "716fda1ec7ade7e8d5773fd1a86ed8c162612e4c88c282d9859c904ce38a59e2"
+  },
+  "boss": {
+    "file": "dict-0c1305ffc2dd2d965f2b5d43.wav",
+    "url": "assets/audio/0c1305ffc2dd2d965f2b5d43.wav",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=91894754",
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "author": "Speaker: Back ache\nRecorder: Back ache",
+    "note": "Free Dictionary API 所列真人錄音",
+    "composite": false,
+    "sha256": "0c1305ffc2dd2d965f2b5d4323f7efaae6e6c601cd67875b52430eaec5fcac09"
+  },
+  "bottle": {
+    "file": "dict-deade56a8c3d4c555be0d1e5.ogg",
+    "url": "assets/audio/deade56a8c3d4c555be0d1e5.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=189588",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "No machine-readable author provided. Denelson83 assumed (based on copyright claims).",
+    "note": "Free Dictionary API 所列真人錄音",
+    "composite": false,
+    "sha256": "deade56a8c3d4c555be0d1e5ac0e874a73e7867cf6a1b23df38d8598df4ae317"
+  },
+  "breakfast": {
+    "file": "dict-9880e22232baa9dc23faa41d.ogg",
+    "url": "assets/audio/9880e22232baa9dc23faa41d.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1661631",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "9880e22232baa9dc23faa41df2cdef77d46cbd20bb65588e238a0b5b453ee5c4"
+  },
+  "brown": {
+    "file": "dict-a19539613ea115f30003e2c8.ogg",
+    "url": "assets/audio/a19539613ea115f30003e2c8.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=840572",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "a19539613ea115f30003e2c8941e6035adc0455683a9c391525663c562042f10"
+  },
+  "call": {
+    "file": "dict-909d69e4135e9711bf199068.ogg",
+    "url": "assets/audio/909d69e4135e9711bf199068.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1220937",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "909d69e4135e9711bf1990682d5a6d5b945e11130880945f169bdb1f128df26f"
+  },
+  "castle": {
+    "file": "dict-64e88ef7f492dceeb943a3f6.ogg",
+    "url": "assets/audio/64e88ef7f492dceeb943a3f6.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=75899785",
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "author": "Commander Keane",
+    "note": "Free Dictionary API 所列真人錄音",
+    "composite": false,
+    "sha256": "64e88ef7f492dceeb943a3f6f47dd55898e086d77c10f1e03cf969709a09c52a"
+  },
+  "country": {
+    "file": "dict-f890ed4b5a00b07bdbae2513.ogg",
+    "url": "assets/audio/f890ed4b5a00b07bdbae2513.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=676455",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "f890ed4b5a00b07bdbae25138c4c8dbc57d2329941a1dc1ef1a55bb34b236e68"
+  },
+  "deep": {
+    "file": "dict-df8e08a97749c79981bccd53.ogg",
+    "url": "assets/audio/df8e08a97749c79981bccd53.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=727413",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "df8e08a97749c79981bccd5316e440dcf73a6004e5f08c14437e30077d599583"
+  },
+  "dictionary": {
+    "file": "dict-2cbd36f579ddca909a839309.ogg",
+    "url": "assets/audio/2cbd36f579ddca909a839309.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=503422",
+    "license": {
+      "name": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:En-uk-dictionary.ogg"
+    },
+    "author": "No machine-readable author provided. Celestianpower assumed (based on copyright claims).",
+    "note": "Free Dictionary API 所列真人錄音",
+    "composite": false,
+    "sha256": "2cbd36f579ddca909a8393096e85960ce4a33205c3a5b9cb98ec9479d79fa2c2"
+  },
+  "behind": {
+    "file": "dict-ded96ee2b7c1a640d926d3d1.ogg",
+    "url": "assets/audio/ded96ee2b7c1a640d926d3d1.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=9014280",
+    "license": {
+      "name": "CC BY 3.0 us",
+      "url": "https://creativecommons.org/licenses/by/3.0/us/deed.en"
+    },
+    "author": "Association Shtooka, Judith Franck",
+    "note": "Free Dictionary API 所列真人錄音",
+    "composite": false,
+    "sha256": "ded96ee2b7c1a640d926d3d17082fd7c958b83c5ed99e149b8f4bfdfce98fc76"
+  },
+  "class": {
+    "file": "dict-56605598a45400dce38e8b64.ogg",
+    "url": "assets/audio/56605598a45400dce38e8b64.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1230668",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "56605598a45400dce38e8b64bf1cd59397089a1b750b3183fa36fe60ae16219b"
+  },
+  "close": {
+    "file": "dict-469d6c97a5fee8bd12a22206.ogg",
+    "url": "assets/audio/469d6c97a5fee8bd12a22206.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=180112",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "469d6c97a5fee8bd12a22206943358619de3e6678a4f9449faaf05f7d128c425"
+  },
+  "clothes": {
+    "file": "dict-14be448932f1bdd4ccac0b7b.ogg",
+    "url": "assets/audio/14be448932f1bdd4ccac0b7b.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1235935",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "14be448932f1bdd4ccac0b7be469eb033b2aaf6dfc1750cd94624106bea99234"
+  },
+  "do": {
+    "file": "dict-335b5a9bd05790a609dc0651.ogg",
+    "url": "assets/audio/335b5a9bd05790a609dc0651.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=192122",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "335b5a9bd05790a609dc0651450b33aa8f3c82463f5827c9e6388c80eb5e4ba0"
+  },
+  "enough": {
+    "file": "dict-af069948177c83c7e8dbb185.ogg",
+    "url": "assets/audio/af069948177c83c7e8dbb185.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=857011",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "af069948177c83c7e8dbb1852b82b94a6ca03232310b723721c3eca9445ccaab"
+  },
+  "evening": {
+    "file": "dict-30dd90a8fd396a207772f0ec.ogg",
+    "url": "assets/audio/30dd90a8fd396a207772f0ec.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=363126",
+    "license": {
+      "name": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:En-us-evening_(noun).ogg"
+    },
+    "author": "No machine-readable author provided. Muke assumed (based on copyright claims).",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "30dd90a8fd396a207772f0ece380c0b7f2224a790375f76ab7b7cd9bee1fd0e1"
+  },
+  "except": {
+    "file": "dict-ffd1fc7745fdef7d0cc2daac.ogg",
+    "url": "assets/audio/ffd1fc7745fdef7d0cc2daac.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=782568",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "ffd1fc7745fdef7d0cc2daac85bf1260e73defa430f81728ec3f531fa31867cd"
+  },
+  "fat": {
+    "file": "dict-9b0cd4a3ac20cad4c0a440df.ogg",
+    "url": "assets/audio/9b0cd4a3ac20cad4c0a440df.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1604346",
+    "license": {
+      "name": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Fat.ogg"
+    },
+    "author": "No machine-readable author provided. Spacecat2~commonswiki assumed (based on copyright claims).",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "9b0cd4a3ac20cad4c0a440df18d7d6d001e76757cadf1d4cfedf879d9f38195f"
+  },
+  "four": {
+    "file": "dict-0f8a0574ceb223839c64bc42.ogg",
+    "url": "assets/audio/0f8a0574ceb223839c64bc42.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=26829452",
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "author": "Tharthan",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "0f8a0574ceb223839c64bc423d7d5a3880f6d222ec5a2d2716463bf12b401469"
+  },
+  "from": {
+    "file": "dict-6a059f8633f6e7d4fc71bb86.ogg",
+    "url": "assets/audio/6a059f8633f6e7d4fc71bb86.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=661711",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "6a059f8633f6e7d4fc71bb86d00f76dbffa0ffc7450508a1b0a0072b242ae2e2"
+  },
+  "full": {
+    "file": "dict-dbbbd3bd6502929ddfdf3de9.ogg",
+    "url": "assets/audio/dbbbd3bd6502929ddfdf3de9.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=857069",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "dbbbd3bd6502929ddfdf3de90fdf7a0acb4020ab51d5d700cc3b5169598da557"
+  },
+  "giant": {
+    "file": "dict-ad2c375e7b46351cdb735211.ogg",
+    "url": "assets/audio/ad2c375e7b46351cdb735211.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=2100434",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "ad2c375e7b46351cdb735211a25f4ddf91e37e99408d3918ae478a99e3d1d307"
+  },
+  "handsome": {
+    "file": "dict-1dc7c393307a6b7ce63b66aa.ogg",
+    "url": "assets/audio/1dc7c393307a6b7ce63b66aa.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1648256",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "1dc7c393307a6b7ce63b66aa040ce346f0e5ad1846bb4a47d7b4439da2704a3e"
+  },
+  "happy": {
+    "file": "dict-14cd0e933bf32703b174959b.ogg",
+    "url": "assets/audio/14cd0e933bf32703b174959b.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=545617",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "14cd0e933bf32703b174959b60dae2b707fdc516b680d9a3fe25f967d14866b1"
+  },
+  "he": {
+    "file": "dict-9828fcc24f6a248667dc3ea7.ogg",
+    "url": "assets/audio/9828fcc24f6a248667dc3ea7.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1217850",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "9828fcc24f6a248667dc3ea79df1878c52be02d26345cfcea82f0aea39d2f33b"
+  },
+  "heart": {
+    "file": "dict-5a781616324efcc02972f9bf.ogg",
+    "url": "assets/audio/5a781616324efcc02972f9bf.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=9021980",
+    "license": {
+      "name": "CC BY 3.0 us",
+      "url": "https://creativecommons.org/licenses/by/3.0/us/deed.en"
+    },
+    "author": "Association Shtooka, Judith Franck",
+    "note": "Free Dictionary API 所列真人錄音",
+    "composite": false,
+    "sha256": "5a781616324efcc02972f9bf3bb7958dfe935e9e824ff7d6cac3b701c419558a"
+  },
+  "hello": {
+    "file": "dict-ddfe95d766634321739de2df.ogg",
+    "url": "assets/audio/ddfe95d766634321739de2df.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=75797336",
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "author": "Commander Keane",
+    "note": "Free Dictionary API 所列真人錄音",
+    "composite": false,
+    "sha256": "ddfe95d766634321739de2dfc1bb4bedc3d320c8364c3680fee6e941ff9c42c6"
+  },
+  "here": {
+    "file": "dict-fa6f50c5e361dd1037c0cd36.ogg",
+    "url": "assets/audio/fa6f50c5e361dd1037c0cd36.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=424738",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "fa6f50c5e361dd1037c0cd3674e4d81c39abd2485fc3800956683db7de381a85"
+  },
+  "high": {
+    "file": "dict-767ffe4d4380cf24c49fb724.ogg",
+    "url": "assets/audio/767ffe4d4380cf24c49fb724.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1227443",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "767ffe4d4380cf24c49fb7241760716ca1827c121d8a83b0f8bccb45ccba4ff6"
+  },
+  "history": {
+    "file": "dict-93b82228d5505b36319eff9b.ogg",
+    "url": "assets/audio/93b82228d5505b36319eff9b.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=862187",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "93b82228d5505b36319eff9bf21cf068ef96f1d50931dcf37061c59c54a2c145"
+  },
+  "house": {
+    "file": "dict-b3f39d1ad71d9baf2b26509e.ogg",
+    "url": "assets/audio/b3f39d1ad71d9baf2b26509e.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=711134",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "b3f39d1ad71d9baf2b26509e515f575b7eefd79226d0d37a2e8f46779ed27f5c"
+  },
+  "how": {
+    "file": "dict-d93322a4d667b46dbfb20c47.ogg",
+    "url": "assets/audio/d93322a4d667b46dbfb20c47.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1217911",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "d93322a4d667b46dbfb20c475df5bfe613d090b465c61264dd3578e4346d6e48"
+  },
+  "hurry": {
+    "file": "dict-90a7cd6e6c5d9ced1b3d1e39.ogg",
+    "url": "assets/audio/90a7cd6e6c5d9ced1b3d1e39.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=20075772",
+    "license": {
+      "name": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:En-us-ne-hurry.ogg"
+    },
+    "author": "Tharthan",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "90a7cd6e6c5d9ced1b3d1e3912b2779a4568c94fe93cdfbdfa037386339da343"
+  },
+  "if": {
+    "file": "dict-bc7b178dce65ee1f5f3ea78e.ogg",
+    "url": "assets/audio/bc7b178dce65ee1f5f3ea78e.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1217866",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "bc7b178dce65ee1f5f3ea78e770d96279c43ce679520c8f013656b12b1e7c223"
+  },
+  "in": {
+    "file": "dict-ba24a59611844f0765ec3816.ogg",
+    "url": "assets/audio/ba24a59611844f0765ec3816.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=75899732",
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "author": "Commander Keane",
+    "note": "Free Dictionary API 所列真人錄音",
+    "composite": false,
+    "sha256": "ba24a59611844f0765ec3816ed6c29788ac752134ccc2a305986043afa917dc5"
+  },
+  "interested": {
+    "file": "dict-16a74fb272c1410cf796821c.ogg",
+    "url": "assets/audio/16a74fb272c1410cf796821c.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1234203",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "16a74fb272c1410cf796821c208385ace1a014b12bc636c97874597d80ef4742"
+  },
+  "interesting": {
+    "file": "dict-64a34062b1da186f5e31e675.ogg",
+    "url": "assets/audio/64a34062b1da186f5e31e675.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1235893",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "64a34062b1da186f5e31e6755b4964cc1aeb1ea319d857b9fb28b41357ef66d9"
+  },
+  "it": {
+    "file": "dict-8599dce0ac074df415647bbe.ogg",
+    "url": "assets/audio/8599dce0ac074df415647bbe.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=9022032",
+    "license": {
+      "name": "CC BY 3.0 us",
+      "url": "https://creativecommons.org/licenses/by/3.0/us/deed.en"
+    },
+    "author": "Association Shtooka, Judith Franck",
+    "note": "Free Dictionary API 所列真人錄音",
+    "composite": false,
+    "sha256": "8599dce0ac074df415647bbe261713dd27c702a882192813c6e562e130b39799"
+  },
+  "key": {
+    "file": "dict-21eed13312c8cc523f072388.ogg",
+    "url": "assets/audio/21eed13312c8cc523f072388.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=876649",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "21eed13312c8cc523f0723886c43f1481a7f68c5082851bb56f12cfc549842c1"
+  },
+  "lake": {
+    "file": "dict-3900d2f583fbae3959b3f437.ogg",
+    "url": "assets/audio/3900d2f583fbae3959b3f437.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=634929",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "3900d2f583fbae3959b3f437e0133f157fee03f5e1ecc6e54fe96ddd37bc4506"
+  },
+  "large": {
+    "file": "dict-449ce1743d21d90a74f2eac7.ogg",
+    "url": "assets/audio/449ce1743d21d90a74f2eac7.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=112437559",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "449ce1743d21d90a74f2eac7440d0dbc1cf856c2658a0c7e86dbdb4e97adf3ef"
+  },
+  "lead": {
+    "file": "dict-9a0076281dccf551b4b682ed.oga",
+    "url": "assets/audio/9a0076281dccf551b4b682ed.oga",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=876671",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "No machine-readable author provided. Dvortygirl assumed (based on copyright claims).",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "9a0076281dccf551b4b682edac7868044db9a145a7aa1e881a3451df205bd867"
+  },
+  "less": {
+    "file": "dict-89264829ec790d4e7a260a86.ogg",
+    "url": "assets/audio/89264829ec790d4e7a260a86.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1227424",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "89264829ec790d4e7a260a866aa9c240255055f67b4244727cb9ccf3f6f5e1b9"
+  },
+  "long": {
+    "file": "dict-2e6df6e40e60e39426f379f4.ogg",
+    "url": "assets/audio/2e6df6e40e60e39426f379f4.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=75899984",
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "author": "Commander Keane",
+    "note": "Free Dictionary API 所列真人錄音",
+    "composite": false,
+    "sha256": "2e6df6e40e60e39426f379f4defa631a0fbd6a7e6a35bd8aa4db07349b602221"
+  },
+  "many": {
+    "file": "dict-7a2589fd61e8787146f1e233.ogg",
+    "url": "assets/audio/7a2589fd61e8787146f1e233.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=711564",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "7a2589fd61e8787146f1e233dbfb31342892dcb882afd225639d5851b0936520"
+  },
+  "medicine": {
+    "file": "dict-1f56df2081bae3de46d47812.ogg",
+    "url": "assets/audio/1f56df2081bae3de46d47812.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=2100795",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "1f56df2081bae3de46d47812348183645543bfd7960554179adfd8f4e725ebc5"
+  },
+  "minute": {
+    "file": "dict-73a8578ba39a5e25e4ae8f2a.ogg",
+    "url": "assets/audio/73a8578ba39a5e25e4ae8f2a.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=379077",
+    "license": {
+      "name": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:En-us-minute-noun.ogg"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "73a8578ba39a5e25e4ae8f2a5c74b47ab9589aae8640cbb332f9ce6ff973f2cd"
+  },
+  "name": {
+    "file": "dict-9571c9edf53477b4404725bd.ogg",
+    "url": "assets/audio/9571c9edf53477b4404725bd.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=711162",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "9571c9edf53477b4404725bdc38986099468c99d539d1f440c7988031a0cbafa"
+  },
+  "near": {
+    "file": "dict-49c027fe70e3bef9018a708c.ogg",
+    "url": "assets/audio/49c027fe70e3bef9018a708c.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=711581",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "49c027fe70e3bef9018a708c106a24bf991eaec45cfb2d1b18ebfee79751c6ea"
+  },
+  "never": {
+    "file": "dict-245279cb3441f7f43d9bf07b.ogg",
+    "url": "assets/audio/245279cb3441f7f43d9bf07b.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=711164",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "245279cb3441f7f43d9bf07bcecb5edf1c2f25215fdd42046978f01d348aaad5"
+  },
+  "news": {
+    "file": "dict-bafe4055579b7835caeacef1.ogg",
+    "url": "assets/audio/bafe4055579b7835caeacef1.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1602347",
+    "license": {
+      "name": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:News.ogg"
+    },
+    "author": "No machine-readable author provided. Spacecat2~commonswiki assumed (based on copyright claims).",
+    "note": "Free Dictionary API 所列真人錄音",
+    "composite": false,
+    "sha256": "bafe4055579b7835caeacef152e8c2c26e0de211f5d3f48d85b59a10f0dbb530"
+  },
+  "nice": {
+    "file": "dict-8191a2fb06b83fb8196b219e.ogg",
+    "url": "assets/audio/8191a2fb06b83fb8196b219e.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1221274",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "8191a2fb06b83fb8196b219e8ab1f2d7cbf037f33d0648fd411315a0d05098ef"
+  },
+  "no": {
+    "file": "dict-065b7c161ca69af82eda6bf7.ogg",
+    "url": "assets/audio/065b7c161ca69af82eda6bf7.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=711582",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "065b7c161ca69af82eda6bf7190a69d18f647bc0c608264ee89ea3993bfaf9f6"
+  },
+  "noise": {
+    "file": "dict-a8d80d942f9f000e8136869d.ogg",
+    "url": "assets/audio/a8d80d942f9f000e8136869d.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1113683",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "a8d80d942f9f000e8136869d82ccd73d8b5906e9ee0780caad8e0372e8d7baae"
+  },
+  "north": {
+    "file": "dict-091d75e093e352c45cee4ac5.ogg",
+    "url": "assets/audio/091d75e093e352c45cee4ac5.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=872827",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "091d75e093e352c45cee4ac5430eb1c54ea68d7d360ba9f87aecb9b0566db7ef"
+  },
+  "old": {
+    "file": "dict-d3258bdd9ced4515f2d5e1ee.ogg",
+    "url": "assets/audio/d3258bdd9ced4515f2d5e1ee.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=711187",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "d3258bdd9ced4515f2d5e1eeb71d1b6efcf8be80f5c91a4a0db668a7279c6168"
+  },
+  "once": {
+    "file": "dict-76dfe9769215fabfed4b2d1f.ogg",
+    "url": "assets/audio/76dfe9769215fabfed4b2d1f.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1224208",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "76dfe9769215fabfed4b2d1fb7923db3c42c2ab8d98b1e8f57e7ffbb69f47992"
+  },
+  "only": {
+    "file": "dict-b05f9c640b1d57fb421f1526.ogg",
+    "url": "assets/audio/b05f9c640b1d57fb421f1526.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=711591",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "b05f9c640b1d57fb421f1526dc4bf87add6261baa7fcd9c29a089fe851b2e04b"
+  },
+  "other": {
+    "file": "dict-a9d4bdce270a24a3f80b13e4.ogg",
+    "url": "assets/audio/a9d4bdce270a24a3f80b13e4.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=711596",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "a9d4bdce270a24a3f80b13e4ca6ba0aed05c65d71b9ca6f58cca04d34eea18ec"
+  },
+  "pear": {
+    "file": "dict-82c4cea42d8d05e05691dca4.ogg",
+    "url": "assets/audio/82c4cea42d8d05e05691dca4.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=9023299",
+    "license": {
+      "name": "CC BY 3.0 us",
+      "url": "https://creativecommons.org/licenses/by/3.0/us/deed.en"
+    },
+    "author": "Association Shtooka, Judith Franck",
+    "note": "Free Dictionary API 所列真人錄音",
+    "composite": false,
+    "sha256": "82c4cea42d8d05e05691dca494d68e90c32926b5ac4389fa73afb5aeab606e15"
+  },
+  "pen": {
+    "file": "dict-1bd4f18e957581960d9b0372.ogg",
+    "url": "assets/audio/1bd4f18e957581960d9b0372.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=261867",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "See original recording page",
+    "note": "Free Dictionary API 所列真人錄音",
+    "composite": false,
+    "sha256": "1bd4f18e957581960d9b0372db1c06cca71b286c15dcba417186bae9948c6540"
+  },
+  "photo": {
+    "file": "dict-4e742d1599ab09191a7e54e8.ogg",
+    "url": "assets/audio/4e742d1599ab09191a7e54e8.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=112398767",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "4e742d1599ab09191a7e54e84eecc1da7063b808b14a7491d709fd69cdd822f6"
+  },
+  "police": {
+    "file": "dict-cb5c60d7ad94812a3d2dedbb.ogg",
+    "url": "assets/audio/cb5c60d7ad94812a3d2dedbb.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1229384",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "cb5c60d7ad94812a3d2dedbb288ebc6950bb99c81f07e203fcac875027c7e4f5"
+  },
+  "poor": {
+    "file": "dict-ebed49a717398bbc8b64d5bf.wav",
+    "url": "assets/audio/ebed49a717398bbc8b64d5bf.wav",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=73937479",
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "author": "Speaker: Nattes à chat\nRecorder: Nattes à chat",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "ebed49a717398bbc8b64d5bf149d71b5de705d04f48193b542b03adee1afe445"
+  },
+  "present": {
+    "file": "dict-89bef42d67daff66c78390d2.ogg",
+    "url": "assets/audio/89bef42d67daff66c78390d2.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1118905",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列真人錄音",
+    "composite": false,
+    "sha256": "89bef42d67daff66c78390d2035d20dc2d048171e32033738a278b80de89134c"
+  },
+  "program": {
+    "file": "dict-4e81a9073a366c66516824b8.ogg",
+    "url": "assets/audio/4e81a9073a366c66516824b8.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1160452",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Author: ",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "4e81a9073a366c66516824b8ce0de022b9cc7f7e90c4a4ff83c00c60286ce5b2"
+  },
+  "quick": {
+    "file": "dict-62babf5419bc74d44afa996d.ogg",
+    "url": "assets/audio/62babf5419bc74d44afa996d.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1157442",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "62babf5419bc74d44afa996d5d5673748d9163f1d89995ce1115bf88def3728c"
+  },
+  "sister": {
+    "file": "dict-0987d97aa7cd9ffcb95a78d3.ogg",
+    "url": "assets/audio/0987d97aa7cd9ffcb95a78d3.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1157720",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "0987d97aa7cd9ffcb95a78d321fa8f65cbb36e45d1394d2db0e9e8b4651a4600"
+  },
+  "slow": {
+    "file": "dict-64a6a2a80e3763e90ce8e331.ogg",
+    "url": "assets/audio/64a6a2a80e3763e90ce8e331.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=711667",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "64a6a2a80e3763e90ce8e33189549b1bdb16f4a36ca09acb894164fe726aa5a9"
+  },
+  "son": {
+    "file": "dict-31807816e27379521f73f26f.ogg",
+    "url": "assets/audio/31807816e27379521f73f26f.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1157896",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "31807816e27379521f73f26fa445f6791a1022aa09b781dbf6cb109a6464116a"
+  },
+  "south": {
+    "file": "dict-ee8ef2da79eb496cb0ecf888.ogg",
+    "url": "assets/audio/ee8ef2da79eb496cb0ecf888.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=872830",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "ee8ef2da79eb496cb0ecf8884dde4e5d3a20ab0d9e05d4e39c490cd0429a59e6"
+  },
+  "student": {
+    "file": "dict-8c7a4c6208b4d644c24b10f9.ogg",
+    "url": "assets/audio/8c7a4c6208b4d644c24b10f9.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1769780",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "8c7a4c6208b4d644c24b10f9bc70305c76c8c7d87183a43cc65676a4d9633b36"
+  },
+  "surf": {
+    "file": "dict-cb6f317b433b0c0dd829a3db.wav",
+    "url": "assets/audio/cb6f317b433b0c0dd829a3db.wav",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=88676895",
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "author": "Speaker: Vealhurl\nRecorder: Vealhurl",
+    "note": "Free Dictionary API 所列真人錄音",
+    "composite": false,
+    "sha256": "cb6f317b433b0c0dd829a3db97b1fc7bc5124dee31a91ed14439845548a23c99"
+  },
+  "tall": {
+    "file": "dict-063f0a82315c325a63d743bd.ogg",
+    "url": "assets/audio/063f0a82315c325a63d743bd.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=9027510",
+    "license": {
+      "name": "CC BY 3.0 us",
+      "url": "https://creativecommons.org/licenses/by/3.0/us/deed.en"
+    },
+    "author": "Association Shtooka, Judith Franck",
+    "note": "Free Dictionary API 所列真人錄音",
+    "composite": false,
+    "sha256": "063f0a82315c325a63d743bdc8c8de34a7171a93f0d901bf9aa8cd7cbbc5caf6"
+  },
+  "teacher": {
+    "file": "dict-097bd4f5e3e0e7289cad4f07.ogg",
+    "url": "assets/audio/097bd4f5e3e0e7289cad4f07.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1769786",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "097bd4f5e3e0e7289cad4f07917aee49dbbed23e72d6cf0344e7b70212259219"
+  },
+  "temple": {
+    "file": "dict-c05a5c4368f399e5ba46ebac.ogg",
+    "url": "assets/audio/c05a5c4368f399e5ba46ebac.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1676875",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "c05a5c4368f399e5ba46ebace0d6100f8ad61a7a42fd7b4e68ed654fb25857cf"
+  },
+  "the": {
+    "file": "dict-fda916d0b478598ce0b757e1.ogg",
+    "url": "assets/audio/fda916d0b478598ce0b757e1.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=584109",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "No machine-readable author provided. Tawker assumed (based on copyright claims).",
+    "note": "Free Dictionary API 所列真人錄音",
+    "composite": false,
+    "sha256": "fda916d0b478598ce0b757e1288fb04807dd2227086264352d544534c87de353"
+  },
+  "theater": {
+    "file": "dict-92e1ae851cef37c4fc1a22d4.ogg",
+    "url": "assets/audio/92e1ae851cef37c4fc1a22d4.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=2100549",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "92e1ae851cef37c4fc1a22d4ee4a53fecd7fa9c1af0aae01ae4fa13cd5c2b3a1"
+  },
+  "true": {
+    "file": "dict-24c940b15853982daac1811c.ogg",
+    "url": "assets/audio/24c940b15853982daac1811c.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=718798",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "24c940b15853982daac1811cf47060678fd367136f0195e15f31bb45251cb629"
+  },
+  "very": {
+    "file": "dict-a846369733bb92767c376eaf.ogg",
+    "url": "assets/audio/a846369733bb92767c376eaf.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=383246",
+    "license": {
+      "name": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:En-us-very.ogg"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "a846369733bb92767c376eafb0d4fcf7afe929c36c8fa0e81ade643c5013d7eb"
+  },
+  "wall": {
+    "file": "dict-5d5b35ed7842de414f02ffc4.ogg",
+    "url": "assets/audio/5d5b35ed7842de414f02ffc4.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1197700",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "5d5b35ed7842de414f02ffc4cea33cb3c0c6283995d3b3b7756c45a6e49483b5"
+  },
+  "we": {
+    "file": "dict-6720ef7da723b31859ecce85.ogg",
+    "url": "assets/audio/6720ef7da723b31859ecce85.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=718821",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "6720ef7da723b31859ecce859e787f097b55948ec8cf66bb00ccc78c4ee5d3d3"
+  },
+  "what": {
+    "file": "dict-fd8cbfa56273a0947876b407.ogg",
+    "url": "assets/audio/fd8cbfa56273a0947876b407.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=84903339",
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "author": "Inqvisitor",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "fd8cbfa56273a0947876b4078f57736c55f117b112ec1f29440deb1f19ad8e91"
+  },
+  "when": {
+    "file": "dict-2bf4fcd85a0cdb4b798d1303.ogg",
+    "url": "assets/audio/2bf4fcd85a0cdb4b798d1303.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=37583407",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "author": "Tharthan",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "2bf4fcd85a0cdb4b798d130388c86ee422e99d699788d5f65efdcd0d5b418d27"
+  },
+  "while": {
+    "file": "dict-187d989d49aef05f0604f726.ogg",
+    "url": "assets/audio/187d989d49aef05f0604f726.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=37605774",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "author": "Tharthan",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "187d989d49aef05f0604f7269ac912b8256876faec62523d8baaed960fa7544d"
+  },
+  "wife": {
+    "file": "dict-0e956365af12659ac03fa7ea.ogg",
+    "url": "assets/audio/0e956365af12659ac03fa7ea.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1224227",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "0e956365af12659ac03fa7ea625e29c6a69e90ed3782e7595046a8d1dfad00ee"
+  },
+  "will": {
+    "file": "dict-c8648b3a9a5f5bfd875b1273.ogg",
+    "url": "assets/audio/c8648b3a9a5f5bfd875b1273.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=589427",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "c8648b3a9a5f5bfd875b12736da83bb822e26dfa5c80c5e4217d8085d891bd38"
+  },
+  "wind": {
+    "file": "dict-c066ed2f6f7d99d0a9b6c6cd.ogg",
+    "url": "assets/audio/c066ed2f6f7d99d0a9b6c6cd.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1197716",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "c066ed2f6f7d99d0a9b6c6cd7b30ea5e3381d28eb5c231562f782eebce45e8c6"
+  },
+  "worry": {
+    "file": "dict-c99886dcd47bad20e56dad19.ogg",
+    "url": "assets/audio/c99886dcd47bad20e56dad19.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=21750995",
+    "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "author": "Tharthan",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "c99886dcd47bad20e56dad19afa5a185f3df74976c62dc5de77a27df89736c24"
+  },
+  "writer": {
+    "file": "dict-6ed756b06cef5112ed0955bb.ogg",
+    "url": "assets/audio/6ed756b06cef5112ed0955bb.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=1676910",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "6ed756b06cef5112ed0955bb77fce225be779d5e6ba144d6394e03851ccbc25b"
+  },
+  "yes": {
+    "file": "dict-f6fa06d1d1b902ca9ff7221d.ogg",
+    "url": "assets/audio/f6fa06d1d1b902ca9ff7221d.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=718836",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列真人錄音",
+    "composite": false,
+    "sha256": "f6fa06d1d1b902ca9ff7221d13ae7257ac865ea2812d8f7bf31d7041472f8cb5"
+  },
+  "yesterday": {
+    "file": "dict-29efc7b71ae73f3b86671267.ogg",
+    "url": "assets/audio/29efc7b71ae73f3b86671267.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=823171",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "29efc7b71ae73f3b8667126790ddf3be5dcdd04a816f4a74ae9e9f096c893cf6"
+  },
+  "you": {
+    "file": "dict-5181015296c20357e4d1b32b.ogg",
+    "url": "assets/audio/5181015296c20357e4d1b32b.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=589433",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "Dvortygirl",
+    "note": "Free Dictionary API 所列真人錄音",
+    "composite": false,
+    "sha256": "5181015296c20357e4d1b32b5084c7d0b9efc82dea13ecdf1190e4d706bfb477"
+  },
+  "zebra": {
+    "file": "dict-1d6dba97eeb65c99c63b2a56.ogg",
+    "url": "assets/audio/1d6dba97eeb65c99c63b2a56.ogg",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=796173",
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "author": "No machine-readable author provided. Dvortygirl assumed (based on copyright claims).",
+    "note": "Free Dictionary API 所列美式真人錄音",
+    "composite": false,
+    "sha256": "1d6dba97eeb65c99c63b2a56d3751c0241446b051f7257430611eac552eb03cf"
   }
 }
