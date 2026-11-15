@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {gardenProgress,gardenPractice,mergeGardenEvents,cleanGardenEvents,mergeFlowerbeds,flowerbedChallenges} from './source/garden-core.mjs';
+import {gardenPlantProgress,gardenProgress,gardenPractice,mergeGardenEvents,cleanGardenEvents,mergeFlowerbeds,flowerbedChallenges} from './source/garden-core.mjs';
 import {cleanLearning,emptyDevice,recordChanges,materialize,mergeOwnDevice,seal,unseal,bytesToBase64} from './source/gist-core.mjs';
 const date='2026-11-01';const base={cards:[{id:'card1',word:'river',zh:'河流',reps:0,due:0,interval:0}],history:{}};
 assert.deepEqual(cleanLearning(base).garden,{events:{}});let g=gardenPractice(null,'river',date,0);assert.equal(gardenProgress(g,date).water,1);assert(!gardenProgress(g,date).badges.find(b=>b.id==='helper').earned);
@@ -47,3 +47,12 @@ assert.equal(flowerbedState.garden.flowerbed.choices[1].value,2);
 assert.equal(mergeFlowerbeds(bed,{choices:{0:{at:101,value:-1}}}).choices[0].value,-1);
 assert.equal(mergeOwnDevice(plotA,{...plotA,flowerbed:undefined}).flowerbed.started,date);
 console.log('PASS: challenge start and distinct days, placement and removal, cross-device merge');
+
+for (const [water,count] of [[239,7],[240,8],[329,8],[330,9],[449,9],[450,10],[599,10],[600,11],[779,11],[780,12]]) {
+  assert.equal(gardenPlantProgress(water).available,count);
+}
+assert.deepEqual(gardenPlantProgress(300),{index:8,goal:90,drops:60,rareCount:0,rareTarget:true,available:8,stage:2});
+assert.equal(gardenPlantProgress(330).goal,120);
+assert.equal(gardenPlantProgress(780).index,2);
+assert.equal(mergeFlowerbeds({choices:{0:{at:200,value:11}}}).choices[0].value,11);
+console.log('PASS: rare plant thresholds, retroactive water and flowerbed slots');
