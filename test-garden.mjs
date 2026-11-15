@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {gardenProgress,gardenPractice,mergeGardenEvents,cleanGardenEvents} from './source/garden-core.mjs';
+import {gardenProgress,gardenPractice,mergeGardenEvents,cleanGardenEvents,mergeFlowerbeds,flowerbedChallenges} from './source/garden-core.mjs';
 import {cleanLearning,emptyDevice,recordChanges,materialize,mergeOwnDevice,seal,unseal,bytesToBase64} from './source/gist-core.mjs';
 const date='2026-11-01';const base={cards:[{id:'card1',word:'river',zh:'河流',reps:0,due:0,interval:0}],history:{}};
 assert.deepEqual(cleanLearning(base).garden,{events:{}});let g=gardenPractice(null,'river',date,0);assert.equal(gardenProgress(g,date).water,1);assert(!gardenProgress(g,date).badges.find(b=>b.id==='helper').earned);
@@ -21,3 +21,29 @@ const rid='r:11111111-1111-1111-1111-111111111111';const rounds={...merged,[rid]
 assert.throws(()=>cleanGardenEvents({'p:wrong':{type:'practice',day:date,word:'river'}}));assert.throws(()=>cleanGardenEvents({'r:bad':{type:'round',day:date,count:5}}));
 const key=bytesToBase64(crypto.getRandomValues(new Uint8Array(32)));assert.deepEqual(await unseal(await seal(material,key),key),material);
 console.log('PASS: legacy migration, wrong-answer reward, daily dedup/cap, correction badge, growth, no inactivity penalty, two-device merge, own-device recovery, round dedup, validation and encrypted round trip');
+
+const bed = {started:date,choices:{0:{at:100,value:0}}};
+const challengeDays = ['2026-11-02','2026-11-03','2026-11-04'];
+let challenge = gardenPractice({events:{},flowerbed:bed},'old',date,2);
+for(const day of challengeDays){
+  challenge = gardenPractice(challenge,'river',day,0);
+  challenge = gardenPractice(challenge,'river',day,2);
+}
+assert.equal(flowerbedChallenges(challenge,challengeDays[2])[0].dayCount,1);
+assert.equal(flowerbedChallenges(challenge,challengeDays[2])[1].wordCount,1);
+for(const [i,word] of ['star','sun','moon','tree'].entries()){
+  const day=challengeDays[i%3];
+  challenge=gardenPractice(challenge,word,day,0);
+  challenge=gardenPractice(challenge,word,day,2);
+}
+assert.equal(flowerbedChallenges(challenge,challengeDays[2])[0].unlocked,true);
+assert.equal(flowerbedChallenges(challenge,challengeDays[1])[0].unlocked,false);
+const plotA=recordChanges(emptyDevice('plot-device-a'),base,{...base,garden:challenge},100);
+const plotB=recordChanges(emptyDevice('plot-device-b'),base,{...base,garden:{events:{},flowerbed:{started:challengeDays[0],choices:{1:{at:101,value:2}}}}},101);
+const flowerbedState=materialize(base,[plotA,plotB]);
+assert.equal(flowerbedState.garden.flowerbed.started,date);
+assert.equal(flowerbedState.garden.flowerbed.choices[0].value,0);
+assert.equal(flowerbedState.garden.flowerbed.choices[1].value,2);
+assert.equal(mergeFlowerbeds(bed,{choices:{0:{at:101,value:-1}}}).choices[0].value,-1);
+assert.equal(mergeOwnDevice(plotA,{...plotA,flowerbed:undefined}).flowerbed.started,date);
+console.log('PASS: challenge start and distinct days, placement and removal, cross-device merge');

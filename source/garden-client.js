@@ -10,5 +10,73 @@ if(index%8===7)bloom+='<path d="M168 132q17-9 25 6c3 12-16 27-16 27s-18-14-16-25
 return `<svg class="garden-plant-art ${animate?'plant-growing':''}" viewBox="0 0 280 250" role="img" aria-label="${p.name}，${['種子','發芽','長葉','開花'][stage]}"><ellipse cx="140" cy="229" rx="75" ry="9" fill="#6c89561c"/><path d="M87 175h106l-14 52H101z" fill="#cb9677"/><path d="M85 173h110v14H85z" rx="5" fill="#ddb292"/><ellipse cx="140" cy="175" rx="51" ry="7" fill="#8c684c"/>${stage===0?'<ellipse cx="140" cy="171" rx="10" ry="6" fill="#d5bc83"/>':`<path d="M140 173V${stage===1?126:84}" stroke="#6c9851" stroke-width="8" stroke-linecap="round" fill="none"/><path d="M140 148C102 152 94 129 96 119c30-2 44 12 44 29" fill="#94bd67"/><path d="M140 136c37 1 49-22 45-33-29-1-45 15-45 33" fill="#b2d37d"/>${stage>=2?'<path d="M139 111c-30-3-41-18-37-27 24 1 37 13 37 27" fill="#83ad59"/>':''}${stage===2?'<path d="M140 92c-22-14-20-34 0-40 21 6 23 26 0 40" fill="'+p.color+'"/>':''}${stage===3?bloom:''}`}</svg>`}
 function growthStage(p){return ['種子休息中','小芽冒出來了','正在長葉子'][p.stage]}
 function gardenSidebar(){const p=gardenProgress(db.garden,day());return `<span class="eyebrow">LITTLE GARDENER</span><h3>今天也有小小進步</h3><div class="garden-water-number">💧 ${p.todayWater}<small> / 20 滴</small></div><p class="note">水滴會自動澆灌植物。<br>今天再認真練一點就好。</p><div class="days">${Array.from({length:7},(_,i)=>{const d=new Date();d.setDate(d.getDate()-6+i);return `<span class="${db.history[d.toLocaleDateString('en-CA')]?'yes':''}">${['日','一','二','三','四','五','六'][d.getDay()]}</span>`}).join('')}</div><div class="hint">💚 答錯也沒關係<br>完成練習就有水滴，訂正還能收集徽章。漏練不扣點，植物也不會枯死。</div>`}
-function gardenSection(){const p=gardenProgress(db.garden,day());return `<section class="garden-section" aria-labelledby="garden-title"><div class="garden-title-row"><div><div class="eyebrow">YOUR GROWING GARDEN</div><h2 id="garden-title">我的小花園</h2></div><span class="tag">💧 累積 ${p.water} 滴 · 🌼 ${p.flowers} 株開花</span></div><div class="garden-display-grid"><article class="panel garden-current">${plantArt(p.flowers,p.stage)}<div><span class="tag">第 ${p.flowers+1} 株 · ${growthStage(p)}</span><h3>${p.plant.name}</h3><div class="garden-growth-track" role="progressbar" aria-label="植物開花進度" aria-valuemin="0" aria-valuemax="30" aria-valuenow="${p.growth}"><i style="width:${p.growth/30*100}%"></i></div><p>再收集 <b>${30-p.growth}</b> 滴水，就會開花！</p><div class="growth-stages"><span class="${p.stage===0?'current':''}">種子</span><span class="${p.stage===1?'current':''}">發芽</span><span class="${p.stage===2?'current':''}">長葉</span><span>開花</span></div></div></article><article class="panel"><h3>我的植物收藏 <small>${Math.min(p.flowers,GARDEN_PLANTS.length)} / ${GARDEN_PLANTS.length} 種</small></h3><div class="plant-collection">${GARDEN_PLANTS.map((plant,i)=>{const count=p.flowers>i?Math.floor((p.flowers-1-i)/GARDEN_PLANTS.length)+1:0;return `<div class="plant-collection-item ${count?'':'plant-locked'}">${count?plantArt(i,3):'<div class="seed-mystery" aria-hidden="true">🌰</div>'}<strong>${count?plant.name:'神祕種子'}</strong><small>${count?'已養成 '+count+' 株':i===p.flowers?'正在照顧':'尚未種下'}</small></div>`}).join('')}</div></article></div><div class="panel garden-badges"><h3>我的成就徽章 <small>${p.badges.filter(b=>b.earned).length} / ${p.badges.length}</small></h3><div class="badge-collection">${p.badges.map(b=>`<div class="garden-badge ${b.earned?'earned':''}"><span aria-hidden="true">${b.earned?b.icon:'🔒'}</span><strong>${b.name}</strong><small>${b.text}</small><em>${b.earned?'已獲得':'繼續探索'}</em></div>`).join('')}</div></div><details class="garden-rules"><summary>水滴與獎勵怎麼獲得？</summary><p>每個不同單字每天第一次完成練習，獲得 1 滴水；答錯也有，每天最多 20 滴。水滴自動澆水，每 30 滴養成一株植物，再種下一顆新種子。重複練同一字不會重複集點，但仍會更新複習進度。回合徽章需完成至少 5 個不同單字，且這回有獲得新水滴。水滴從這次更新後的練習開始累積。水滴、植物和徽章會跟著學習進度同步。</p></details></section>`}
+function gardenSection(){const p=gardenProgress(db.garden,day());return `<section class="garden-section" aria-labelledby="garden-title"><div class="garden-title-row"><div><div class="eyebrow">YOUR GROWING GARDEN</div><h2 id="garden-title">我的小花園</h2></div><span class="tag">💧 累積 ${p.water} 滴 · 🌼 ${p.flowers} 株開花</span></div>${renderFlowerbed(p)}<div class="garden-display-grid"><article class="panel garden-current">${plantArt(p.flowers,p.stage)}<div><span class="tag">第 ${p.flowers+1} 株 · ${growthStage(p)}</span><h3>${p.plant.name}</h3><div class="garden-growth-track" role="progressbar" aria-label="植物開花進度" aria-valuemin="0" aria-valuemax="30" aria-valuenow="${p.growth}"><i style="width:${p.growth/30*100}%"></i></div><p>再收集 <b>${30-p.growth}</b> 滴水，就會開花！</p><div class="growth-stages"><span class="${p.stage===0?'current':''}">種子</span><span class="${p.stage===1?'current':''}">發芽</span><span class="${p.stage===2?'current':''}">長葉</span><span>開花</span></div></div></article><article class="panel"><h3>我的植物收藏 <small>${Math.min(p.flowers,GARDEN_PLANTS.length)} / ${GARDEN_PLANTS.length} 種</small></h3><div class="plant-collection">${GARDEN_PLANTS.map((plant,i)=>{const count=p.flowers>i?Math.floor((p.flowers-1-i)/GARDEN_PLANTS.length)+1:0;return `<div class="plant-collection-item ${count?'':'plant-locked'}">${count?plantArt(i,3):'<div class="seed-mystery" aria-hidden="true">🌰</div>'}<strong>${count?plant.name:'神祕種子'}</strong><small>${count?'已養成 '+count+' 株':i===p.flowers?'正在照顧':'尚未種下'}</small></div>`}).join('')}</div></article></div><div class="panel garden-badges"><h3>我的成就徽章 <small>${p.badges.filter(b=>b.earned).length} / ${p.badges.length}</small></h3><div class="badge-collection">${p.badges.map(b=>`<div class="garden-badge ${b.earned?'earned':''}"><span aria-hidden="true">${b.earned?b.icon:'🔒'}</span><strong>${b.name}</strong><small>${b.text}</small><em>${b.earned?'已獲得':'繼續探索'}</em></div>`).join('')}</div></div><details class="garden-rules"><summary>水滴與獎勵怎麼獲得？</summary><p>每個不同單字每天第一次完成練習，獲得 1 滴水；答錯也有，每天最多 20 滴。水滴自動澆水，每 30 滴養成一株植物，再種下一顆新種子。重複練同一字不會重複集點，但仍會更新複習進度。回合徽章需完成至少 5 個不同單字，且這回有獲得新水滴。水滴從這次更新後的練習開始累積。水滴、植物和徽章會跟著學習進度同步。</p></details></section>`}
 function gardenRoundSummary(){const p=gardenProgress(db.garden,day()),newBadges=p.badges.filter(b=>b.earned&&!gardenRoundStartBadges.includes(b.id)),bloom=p.flowers>gardenRoundStartFlowers;return `<div class="garden-round-reward" role="status"><div class="round-plant">${plantArt(bloom?p.flowers-1:p.flowers,bloom?3:p.stage,true)}${gardenRoundCredited.size?'<div class="reward-drops" aria-hidden="true"><span>💧</span><span>💧</span><span>💧</span></div>':''}</div><h2>${bloom?'新的花朵開了！':gardenRoundCredited.size?'小花園收到你的照顧了！':'今天的努力，也都記住了！'}</h2><strong class="water-earned">${gardenRoundCredited.size?'💧 ＋'+gardenRoundCredited.size+' 滴水':'💚 複習進度已保存'}</strong><p>${bloom?'新植物已加入收藏，下一顆種子也種下了。':gardenRoundCredited.size?`再 ${30-p.growth} 滴水，${p.plant.name}就會開花。`:'這些單字今天已領過水滴，或今日水滴已集滿。'}</p>${newBadges.length?`<div class="new-badges">${newBadges.map(b=>`<span>新徽章 ${b.icon} ${b.name}</span>`).join('')}</div>`:''}</div>`}
+
+let flowerbedPlant = -1;
+function renderFlowerbed(progress) {
+  const bed = mergeFlowerbeds(db.garden?.flowerbed);
+  const visitors = flowerbedChallenges(db.garden,day());
+  const available = Math.min(progress.flowers,GARDEN_PLANTS.length);
+  const selected = visitors[bed.choices.visitor?.value];
+  const slots = [0,1,2].map(slot => {
+    const plant = GARDEN_PLANTS[bed.choices[slot]?.value];
+    return `<div class="flowerbed-position">
+      <button type="button" class="flowerbed-plot" onclick="placeFlowerbedPlant(${slot})" ${available?'':'disabled'} aria-label="花位 ${slot+1}，${plant?plant.name:'空位'}">
+        ${plant?plantArt(bed.choices[slot].value,3):'<span aria-hidden="true">＋</span>'}
+        <strong>${plant?plant.name:'空花位'}</strong>
+      </button>
+      ${plant?'<button type="button" class="flowerbed-clear" onclick="clearFlowerbedPlot('+slot+')">收回</button>':''}
+    </div>`;
+  }).join('');
+  return `<section class="panel flowerbed" aria-labelledby="flowerbed-title">
+    <div class="flowerbed-heading"><h3 id="flowerbed-title">🦋 蝴蝶花圃</h3>
+      ${selected?.unlocked?`<span class="tag">${selected.icon} ${selected.name}正在拜訪</span>`:''}
+    </div>
+    <p>${available?'先選一種花，再點花位放進去。':'養出第一朵花，就能布置花圃。'}</p>
+    ${available?`<div class="flowerbed-palette" aria-label="可布置的植物">${GARDEN_PLANTS.slice(0,available).map((plant,index)=>
+      `<button type="button" aria-pressed="${flowerbedPlant===index}" onclick="selectFlowerbedPlant(${index})">${plant.icon} ${plant.name}</button>`).join('')}</div>`:''}
+    <div class="flowerbed-plots">${slots}</div>
+    <p id="flowerbed-status" role="status" tabindex="-1"></p>
+    <h4>訪客圖鑑</h4>
+    <p>${bed.started?'每個任務分開累計，每個字只算一次。每項任務達標後，可以邀請一位訪客來花圃。':'放入第一株花後，隔天開始累計挑戰。'}</p>
+    <div class="flowerbed-visitors">${visitors.map((visitor,index)=>`
+      <article class="flowerbed-visitor">
+        <strong>${visitor.icon} ${visitor.name}</strong>
+        <p>${visitor.corrected?'訂正':'成功拼出'} <b>${visitor.words}</b> 個不同單字，分至少 <b>${visitor.days}</b> 天完成。</p>
+        <p>${Math.min(visitor.wordCount,visitor.words)} / ${visitor.words} 字 · ${Math.min(visitor.dayCount,visitor.days)} / ${visitor.days} 天</p>
+        ${visitor.unlocked?`<button type="button" onclick="chooseFlowerbedVisitor(${index})" ${selected===visitor?'disabled':''}>${selected===visitor?'拜訪中':'邀請拜訪'}</button>`:'<span class="tag">等待解鎖</span>'}
+      </article>`).join('')}</div>
+  </section>`;
+}
+function selectFlowerbedPlant(index) {
+  flowerbedPlant = index;
+  document.querySelectorAll('.flowerbed-palette button').forEach((button,i) =>
+    button.setAttribute('aria-pressed',String(i===index)));
+  document.getElementById('flowerbed-status').textContent = '已選擇'+GARDEN_PLANTS[index].name+'，請點一個花位。';
+}
+function placeFlowerbedPlant(slot) {
+  if (flowerbedPlant<0) {
+    document.getElementById('flowerbed-status').textContent = '先從上面選一種花。';
+    return;
+  }
+  if (flowerbedPlant>=gardenProgress(db.garden,day()).flowers) return;
+  updateFlowerbed(String(slot),flowerbedPlant,true);
+}
+function clearFlowerbedPlot(slot) {
+  updateFlowerbed(String(slot),-1,false);
+}
+function chooseFlowerbedVisitor(index) {
+  if (flowerbedChallenges(db.garden,day())[index]?.unlocked) updateFlowerbed('visitor',index,false);
+}
+function updateFlowerbed(slot,value,startsChallenge) {
+  const bed = mergeFlowerbeds(db.garden.flowerbed);
+  if (startsChallenge&&!bed.started) bed.started = day();
+  bed.choices[slot] = {value,at:Math.max(Date.now(),(bed.choices[slot]?.at||0)+1)};
+  db.garden.flowerbed = bed;
+  const saved = save();
+  render();
+  const status = document.getElementById('flowerbed-status');
+  status.textContent = saved ? '花圃已更新。' : '目前無法儲存花圃。';
+  status.focus({preventScroll:true});
+}
